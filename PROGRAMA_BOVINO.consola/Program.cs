@@ -18,7 +18,7 @@ namespace PROGRAMA_BOVINO.consola
         {
             var Propietario = new Aper_propietario()
             {
-                //id                  = 1,
+                
                 Identificacion      = 123456,
                 Nombre              = "Pedro",
                 Apellido            = "Romero",
