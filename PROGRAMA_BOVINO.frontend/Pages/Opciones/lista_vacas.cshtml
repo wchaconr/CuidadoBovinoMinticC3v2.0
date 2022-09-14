@@ -33,7 +33,7 @@
             <th>Ubicación</th>
             <th>Acción</th>
           </tr>
-          @foreach (var vaca in Model.Vaca)
+          @foreach (object vaca in Model.Vaca)
           {
             <td>@vaca.id</td>
             <td>@vaca.Cod_Vaca</td>
