@@ -33,9 +33,18 @@
             <th>Ubicación</th>
             <th>Acción</th>
           </tr>
-        
-
-
+          @foreach (var vaca in Model.Vaca)
+          {
+            <td>@vaca.id</td>
+            <td>@vaca.Cod_Vaca</td>
+            <td>@vaca.Nombre</td>
+            <td>@vaca.Color</td>
+            <td>@vaca.Raza</td>
+            <td>@vaca.Edad</td>
+            <td>@vaca.Propietario</td>
+            <td>@vaca.Veterinario</td>
+            <td>@vaca.Ubicacion</td>
+          }
 	</section>
 </body>
 <style>

@@ -8,30 +8,29 @@ namespace PROGRAMA_BOVINO.consola
 {
     class Programa 
     {
-        private static I_Repo_Propietario _Repo_Propietario = new Repo_Propietario (new persistencia.AppContext());
+        private static I_Repo_Vacas _Repo_Vacas = new Rep_Vacas (new persistencia.AppContext());
         static void Main (string[] args)
         {
             Console.WriteLine("Hola Mundo");
-            AdicionarPropietario();
+            AdicionarVaca();
         }
-        private static void AdicionarPropietario()
+        private static void AdicionarVaca()
         {
-            var Propietario = new Aper_propietario()
+            var Vaca = new Aper_vaca()
             {
                 
-                Identificacion      = 123456,
-                Nombre              = "Pedro",
-                Apellido            = "Romero",
-                Direccion           = "Cra 69C # 3 14",
-                Telefono            = "3123824288",
-                E_mail              = "freddy.vasquez.c@hotmail.com",
-                Genero              = "Masculino",
-                Id_Propietario      = 1,
-                Nombre_Hacienda     = "Las Palmas"
+                Cod_Vaca      = 999,
+                Nombre              = "Paloma",
+                Color            = "Cafe",
+                Raza           = "Braman",
+                Edad            = "3",
+                Propietario              = "Pedro",
+                Veterinario              = "Carlos",
+                Ubicacion                  = "Finca el trebol"
 
 
             };
-            _Repo_Propietario.AddPropietario(Propietario);
+            _Repo_Vacas.AddVaca(Vaca);
             
         }
             

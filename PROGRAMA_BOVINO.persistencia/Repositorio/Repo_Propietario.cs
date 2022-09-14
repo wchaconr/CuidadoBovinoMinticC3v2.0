@@ -35,7 +35,7 @@ namespace PROGRAMA_BOVINO.persistencia
             var propietarioEncontrado =_appContext.Aper_Propietarios.FirstOrDefault(p=>p.id==propietario.id);
             if(propietarioEncontrado!=null)
             {
-                        propietarioEncontrado.Id_Propietario=propietario.Id_Propietario;
+                        
                         propietarioEncontrado.Nombre=propietario.Nombre;
                         propietarioEncontrado.Apellido=propietario.Apellido;
                         propietarioEncontrado.Direccion=propietario.Direccion;
