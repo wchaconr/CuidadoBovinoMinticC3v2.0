@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "5QHymHHgRtULm/diyLDMa2yBtR908Ox5pnx0WZMXQ6g=",
+  "Hash": "mSRn3Cw2b+bEg2NjS5Pl+uLVbkp6Q+Rsc6ob6ATZnfA=",
   "Source": "PROGRAMA_BOVINO.frontend",
   "BasePath": "_content/PROGRAMA_BOVINO.frontend",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "PROGRAMA_BOVINO.frontend\\wwwroot",
       "Source": "PROGRAMA_BOVINO.frontend",
-      "ContentRoot": "D:\\CuidadoBovinoMinticC3\\PROGRAMA_BOVINO.frontend\\wwwroot\\",
+      "ContentRoot": "D:\\CuidadoBovinoMinticC3v2.0\\PROGRAMA_BOVINO.frontend\\wwwroot\\",
       "BasePath": "_content/PROGRAMA_BOVINO.frontend",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "D:\\CuidadoBovinoMinticC3\\PROGRAMA_BOVINO.frontend\\obj\\Debug\\net6.0\\scopedcss\\bundle\\PROGRAMA_BOVINO.frontend.styles.css",
+      "Identity": "D:\\CuidadoBovinoMinticC3v2.0\\PROGRAMA_BOVINO.frontend\\obj\\Debug\\net6.0\\scopedcss\\bundle\\PROGRAMA_BOVINO.frontend.styles.css",
       "SourceId": "PROGRAMA_BOVINO.frontend",
       "SourceType": "Computed",
-      "ContentRoot": "D:\\CuidadoBovinoMinticC3\\PROGRAMA_BOVINO.frontend\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
+      "ContentRoot": "D:\\CuidadoBovinoMinticC3v2.0\\PROGRAMA_BOVINO.frontend\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
       "BasePath": "_content/PROGRAMA_BOVINO.frontend",
       "RelativePath": "PROGRAMA_BOVINO.frontend.styles.css",
       "AssetKind": "All",
@@ -31,13 +31,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "D:\\CuidadoBovinoMinticC3\\PROGRAMA_BOVINO.frontend\\obj\\Debug\\net6.0\\scopedcss\\bundle\\PROGRAMA_BOVINO.frontend.styles.css"
+      "OriginalItemSpec": "D:\\CuidadoBovinoMinticC3v2.0\\PROGRAMA_BOVINO.frontend\\obj\\Debug\\net6.0\\scopedcss\\bundle\\PROGRAMA_BOVINO.frontend.styles.css"
     },
     {
-      "Identity": "D:\\CuidadoBovinoMinticC3\\PROGRAMA_BOVINO.frontend\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\PROGRAMA_BOVINO.frontend.bundle.scp.css",
+      "Identity": "D:\\CuidadoBovinoMinticC3v2.0\\PROGRAMA_BOVINO.frontend\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\PROGRAMA_BOVINO.frontend.bundle.scp.css",
       "SourceId": "PROGRAMA_BOVINO.frontend",
       "SourceType": "Computed",
-      "ContentRoot": "D:\\CuidadoBovinoMinticC3\\PROGRAMA_BOVINO.frontend\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "D:\\CuidadoBovinoMinticC3v2.0\\PROGRAMA_BOVINO.frontend\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/PROGRAMA_BOVINO.frontend",
       "RelativePath": "PROGRAMA_BOVINO.frontend.bundle.scp.css",
       "AssetKind": "All",
@@ -48,13 +48,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "D:\\CuidadoBovinoMinticC3\\PROGRAMA_BOVINO.frontend\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\PROGRAMA_BOVINO.frontend.bundle.scp.css"
+      "OriginalItemSpec": "D:\\CuidadoBovinoMinticC3v2.0\\PROGRAMA_BOVINO.frontend\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\PROGRAMA_BOVINO.frontend.bundle.scp.css"
     },
     {
-      "Identity": "D:\\CuidadoBovinoMinticC3\\PROGRAMA_BOVINO.frontend\\wwwroot\\css\\site.css",
+      "Identity": "D:\\CuidadoBovinoMinticC3v2.0\\PROGRAMA_BOVINO.frontend\\wwwroot\\css\\site.css",
       "SourceId": "PROGRAMA_BOVINO.frontend",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\CuidadoBovinoMinticC3\\PROGRAMA_BOVINO.frontend\\wwwroot\\",
+      "ContentRoot": "D:\\CuidadoBovinoMinticC3v2.0\\PROGRAMA_BOVINO.frontend\\wwwroot\\",
       "BasePath": "_content/PROGRAMA_BOVINO.frontend",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -68,10 +68,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "D:\\CuidadoBovinoMinticC3\\PROGRAMA_BOVINO.frontend\\wwwroot\\favicon.ico",
+      "Identity": "D:\\CuidadoBovinoMinticC3v2.0\\PROGRAMA_BOVINO.frontend\\wwwroot\\favicon.ico",
       "SourceId": "PROGRAMA_BOVINO.frontend",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\CuidadoBovinoMinticC3\\PROGRAMA_BOVINO.frontend\\wwwroot\\",
+      "ContentRoot": "D:\\CuidadoBovinoMinticC3v2.0\\PROGRAMA_BOVINO.frontend\\wwwroot\\",
       "BasePath": "_content/PROGRAMA_BOVINO.frontend",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -85,10 +85,10 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "D:\\CuidadoBovinoMinticC3\\PROGRAMA_BOVINO.frontend\\wwwroot\\js\\site.js",
+      "Identity": "D:\\CuidadoBovinoMinticC3v2.0\\PROGRAMA_BOVINO.frontend\\wwwroot\\js\\site.js",
       "SourceId": "PROGRAMA_BOVINO.frontend",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\CuidadoBovinoMinticC3\\PROGRAMA_BOVINO.frontend\\wwwroot\\",
+      "ContentRoot": "D:\\CuidadoBovinoMinticC3v2.0\\PROGRAMA_BOVINO.frontend\\wwwroot\\",
       "BasePath": "_content/PROGRAMA_BOVINO.frontend",
       "RelativePath": "js/site.js",
       "AssetKind": "All",
@@ -102,10 +102,10 @@
       "OriginalItemSpec": "wwwroot\\js\\site.js"
     },
     {
-      "Identity": "D:\\CuidadoBovinoMinticC3\\PROGRAMA_BOVINO.frontend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Identity": "D:\\CuidadoBovinoMinticC3v2.0\\PROGRAMA_BOVINO.frontend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "SourceId": "PROGRAMA_BOVINO.frontend",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\CuidadoBovinoMinticC3\\PROGRAMA_BOVINO.frontend\\wwwroot\\",
+      "ContentRoot": "D:\\CuidadoBovinoMinticC3v2.0\\PROGRAMA_BOVINO.frontend\\wwwroot\\",
       "BasePath": "_content/PROGRAMA_BOVINO.frontend",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css",
       "AssetKind": "All",
@@ -119,10 +119,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Identity": "D:\\CuidadoBovinoMinticC3\\PROGRAMA_BOVINO.frontend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Identity": "D:\\CuidadoBovinoMinticC3v2.0\\PROGRAMA_BOVINO.frontend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "SourceId": "PROGRAMA_BOVINO.frontend",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\CuidadoBovinoMinticC3\\PROGRAMA_BOVINO.frontend\\wwwroot\\",
+      "ContentRoot": "D:\\CuidadoBovinoMinticC3v2.0\\PROGRAMA_BOVINO.frontend\\wwwroot\\",
       "BasePath": "_content/PROGRAMA_BOVINO.frontend",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css.map",
       "AssetKind": "All",
@@ -136,10 +136,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Identity": "D:\\CuidadoBovinoMinticC3\\PROGRAMA_BOVINO.frontend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Identity": "D:\\CuidadoBovinoMinticC3v2.0\\PROGRAMA_BOVINO.frontend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "SourceId": "PROGRAMA_BOVINO.frontend",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\CuidadoBovinoMinticC3\\PROGRAMA_BOVINO.frontend\\wwwroot\\",
+      "ContentRoot": "D:\\CuidadoBovinoMinticC3v2.0\\PROGRAMA_BOVINO.frontend\\wwwroot\\",
       "BasePath": "_content/PROGRAMA_BOVINO.frontend",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css",
       "AssetKind": "All",
@@ -153,10 +153,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Identity": "D:\\CuidadoBovinoMinticC3\\PROGRAMA_BOVINO.frontend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Identity": "D:\\CuidadoBovinoMinticC3v2.0\\PROGRAMA_BOVINO.frontend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "SourceId": "PROGRAMA_BOVINO.frontend",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\CuidadoBovinoMinticC3\\PROGRAMA_BOVINO.frontend\\wwwroot\\",
+      "ContentRoot": "D:\\CuidadoBovinoMinticC3v2.0\\PROGRAMA_BOVINO.frontend\\wwwroot\\",
       "BasePath": "_content/PROGRAMA_BOVINO.frontend",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
       "AssetKind": "All",
@@ -170,10 +170,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Identity": "D:\\CuidadoBovinoMinticC3\\PROGRAMA_BOVINO.frontend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Identity": "D:\\CuidadoBovinoMinticC3v2.0\\PROGRAMA_BOVINO.frontend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "SourceId": "PROGRAMA_BOVINO.frontend",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\CuidadoBovinoMinticC3\\PROGRAMA_BOVINO.frontend\\wwwroot\\",
+      "ContentRoot": "D:\\CuidadoBovinoMinticC3v2.0\\PROGRAMA_BOVINO.frontend\\wwwroot\\",
       "BasePath": "_content/PROGRAMA_BOVINO.frontend",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
       "AssetKind": "All",
@@ -187,10 +187,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Identity": "D:\\CuidadoBovinoMinticC3\\PROGRAMA_BOVINO.frontend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Identity": "D:\\CuidadoBovinoMinticC3v2.0\\PROGRAMA_BOVINO.frontend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "SourceId": "PROGRAMA_BOVINO.frontend",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\CuidadoBovinoMinticC3\\PROGRAMA_BOVINO.frontend\\wwwroot\\",
+      "ContentRoot": "D:\\CuidadoBovinoMinticC3v2.0\\PROGRAMA_BOVINO.frontend\\wwwroot\\",
       "BasePath": "_content/PROGRAMA_BOVINO.frontend",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
       "AssetKind": "All",
@@ -204,10 +204,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Identity": "D:\\CuidadoBovinoMinticC3\\PROGRAMA_BOVINO.frontend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Identity": "D:\\CuidadoBovinoMinticC3v2.0\\PROGRAMA_BOVINO.frontend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "SourceId": "PROGRAMA_BOVINO.frontend",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\CuidadoBovinoMinticC3\\PROGRAMA_BOVINO.frontend\\wwwroot\\",
+      "ContentRoot": "D:\\CuidadoBovinoMinticC3v2.0\\PROGRAMA_BOVINO.frontend\\wwwroot\\",
       "BasePath": "_content/PROGRAMA_BOVINO.frontend",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
       "AssetKind": "All",
@@ -221,10 +221,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Identity": "D:\\CuidadoBovinoMinticC3\\PROGRAMA_BOVINO.frontend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Identity": "D:\\CuidadoBovinoMinticC3v2.0\\PROGRAMA_BOVINO.frontend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "SourceId": "PROGRAMA_BOVINO.frontend",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\CuidadoBovinoMinticC3\\PROGRAMA_BOVINO.frontend\\wwwroot\\",
+      "ContentRoot": "D:\\CuidadoBovinoMinticC3v2.0\\PROGRAMA_BOVINO.frontend\\wwwroot\\",
       "BasePath": "_content/PROGRAMA_BOVINO.frontend",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
       "AssetKind": "All",
@@ -238,10 +238,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Identity": "D:\\CuidadoBovinoMinticC3\\PROGRAMA_BOVINO.frontend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Identity": "D:\\CuidadoBovinoMinticC3v2.0\\PROGRAMA_BOVINO.frontend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "SourceId": "PROGRAMA_BOVINO.frontend",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\CuidadoBovinoMinticC3\\PROGRAMA_BOVINO.frontend\\wwwroot\\",
+      "ContentRoot": "D:\\CuidadoBovinoMinticC3v2.0\\PROGRAMA_BOVINO.frontend\\wwwroot\\",
       "BasePath": "_content/PROGRAMA_BOVINO.frontend",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css",
       "AssetKind": "All",
@@ -255,10 +255,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Identity": "D:\\CuidadoBovinoMinticC3\\PROGRAMA_BOVINO.frontend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Identity": "D:\\CuidadoBovinoMinticC3v2.0\\PROGRAMA_BOVINO.frontend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "SourceId": "PROGRAMA_BOVINO.frontend",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\CuidadoBovinoMinticC3\\PROGRAMA_BOVINO.frontend\\wwwroot\\",
+      "ContentRoot": "D:\\CuidadoBovinoMinticC3v2.0\\PROGRAMA_BOVINO.frontend\\wwwroot\\",
       "BasePath": "_content/PROGRAMA_BOVINO.frontend",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css.map",
       "AssetKind": "All",
@@ -272,10 +272,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Identity": "D:\\CuidadoBovinoMinticC3\\PROGRAMA_BOVINO.frontend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Identity": "D:\\CuidadoBovinoMinticC3v2.0\\PROGRAMA_BOVINO.frontend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "SourceId": "PROGRAMA_BOVINO.frontend",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\CuidadoBovinoMinticC3\\PROGRAMA_BOVINO.frontend\\wwwroot\\",
+      "ContentRoot": "D:\\CuidadoBovinoMinticC3v2.0\\PROGRAMA_BOVINO.frontend\\wwwroot\\",
       "BasePath": "_content/PROGRAMA_BOVINO.frontend",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css",
       "AssetKind": "All",
@@ -289,10 +289,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Identity": "D:\\CuidadoBovinoMinticC3\\PROGRAMA_BOVINO.frontend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Identity": "D:\\CuidadoBovinoMinticC3v2.0\\PROGRAMA_BOVINO.frontend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "SourceId": "PROGRAMA_BOVINO.frontend",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\CuidadoBovinoMinticC3\\PROGRAMA_BOVINO.frontend\\wwwroot\\",
+      "ContentRoot": "D:\\CuidadoBovinoMinticC3v2.0\\PROGRAMA_BOVINO.frontend\\wwwroot\\",
       "BasePath": "_content/PROGRAMA_BOVINO.frontend",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
       "AssetKind": "All",
@@ -306,10 +306,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Identity": "D:\\CuidadoBovinoMinticC3\\PROGRAMA_BOVINO.frontend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Identity": "D:\\CuidadoBovinoMinticC3v2.0\\PROGRAMA_BOVINO.frontend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "SourceId": "PROGRAMA_BOVINO.frontend",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\CuidadoBovinoMinticC3\\PROGRAMA_BOVINO.frontend\\wwwroot\\",
+      "ContentRoot": "D:\\CuidadoBovinoMinticC3v2.0\\PROGRAMA_BOVINO.frontend\\wwwroot\\",
       "BasePath": "_content/PROGRAMA_BOVINO.frontend",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
       "AssetKind": "All",
@@ -323,10 +323,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Identity": "D:\\CuidadoBovinoMinticC3\\PROGRAMA_BOVINO.frontend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Identity": "D:\\CuidadoBovinoMinticC3v2.0\\PROGRAMA_BOVINO.frontend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "SourceId": "PROGRAMA_BOVINO.frontend",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\CuidadoBovinoMinticC3\\PROGRAMA_BOVINO.frontend\\wwwroot\\",
+      "ContentRoot": "D:\\CuidadoBovinoMinticC3v2.0\\PROGRAMA_BOVINO.frontend\\wwwroot\\",
       "BasePath": "_content/PROGRAMA_BOVINO.frontend",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
       "AssetKind": "All",
@@ -340,10 +340,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Identity": "D:\\CuidadoBovinoMinticC3\\PROGRAMA_BOVINO.frontend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Identity": "D:\\CuidadoBovinoMinticC3v2.0\\PROGRAMA_BOVINO.frontend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "SourceId": "PROGRAMA_BOVINO.frontend",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\CuidadoBovinoMinticC3\\PROGRAMA_BOVINO.frontend\\wwwroot\\",
+      "ContentRoot": "D:\\CuidadoBovinoMinticC3v2.0\\PROGRAMA_BOVINO.frontend\\wwwroot\\",
       "BasePath": "_content/PROGRAMA_BOVINO.frontend",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
       "AssetKind": "All",
@@ -357,10 +357,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Identity": "D:\\CuidadoBovinoMinticC3\\PROGRAMA_BOVINO.frontend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Identity": "D:\\CuidadoBovinoMinticC3v2.0\\PROGRAMA_BOVINO.frontend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "SourceId": "PROGRAMA_BOVINO.frontend",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\CuidadoBovinoMinticC3\\PROGRAMA_BOVINO.frontend\\wwwroot\\",
+      "ContentRoot": "D:\\CuidadoBovinoMinticC3v2.0\\PROGRAMA_BOVINO.frontend\\wwwroot\\",
       "BasePath": "_content/PROGRAMA_BOVINO.frontend",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
       "AssetKind": "All",
@@ -374,10 +374,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Identity": "D:\\CuidadoBovinoMinticC3\\PROGRAMA_BOVINO.frontend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Identity": "D:\\CuidadoBovinoMinticC3v2.0\\PROGRAMA_BOVINO.frontend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "SourceId": "PROGRAMA_BOVINO.frontend",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\CuidadoBovinoMinticC3\\PROGRAMA_BOVINO.frontend\\wwwroot\\",
+      "ContentRoot": "D:\\CuidadoBovinoMinticC3v2.0\\PROGRAMA_BOVINO.frontend\\wwwroot\\",
       "BasePath": "_content/PROGRAMA_BOVINO.frontend",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css",
       "AssetKind": "All",
@@ -391,10 +391,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Identity": "D:\\CuidadoBovinoMinticC3\\PROGRAMA_BOVINO.frontend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Identity": "D:\\CuidadoBovinoMinticC3v2.0\\PROGRAMA_BOVINO.frontend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "SourceId": "PROGRAMA_BOVINO.frontend",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\CuidadoBovinoMinticC3\\PROGRAMA_BOVINO.frontend\\wwwroot\\",
+      "ContentRoot": "D:\\CuidadoBovinoMinticC3v2.0\\PROGRAMA_BOVINO.frontend\\wwwroot\\",
       "BasePath": "_content/PROGRAMA_BOVINO.frontend",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css.map",
       "AssetKind": "All",
@@ -408,10 +408,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Identity": "D:\\CuidadoBovinoMinticC3\\PROGRAMA_BOVINO.frontend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Identity": "D:\\CuidadoBovinoMinticC3v2.0\\PROGRAMA_BOVINO.frontend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "SourceId": "PROGRAMA_BOVINO.frontend",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\CuidadoBovinoMinticC3\\PROGRAMA_BOVINO.frontend\\wwwroot\\",
+      "ContentRoot": "D:\\CuidadoBovinoMinticC3v2.0\\PROGRAMA_BOVINO.frontend\\wwwroot\\",
       "BasePath": "_content/PROGRAMA_BOVINO.frontend",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css",
       "AssetKind": "All",
@@ -425,10 +425,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Identity": "D:\\CuidadoBovinoMinticC3\\PROGRAMA_BOVINO.frontend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Identity": "D:\\CuidadoBovinoMinticC3v2.0\\PROGRAMA_BOVINO.frontend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "SourceId": "PROGRAMA_BOVINO.frontend",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\CuidadoBovinoMinticC3\\PROGRAMA_BOVINO.frontend\\wwwroot\\",
+      "ContentRoot": "D:\\CuidadoBovinoMinticC3v2.0\\PROGRAMA_BOVINO.frontend\\wwwroot\\",
       "BasePath": "_content/PROGRAMA_BOVINO.frontend",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
       "AssetKind": "All",
@@ -442,10 +442,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Identity": "D:\\CuidadoBovinoMinticC3\\PROGRAMA_BOVINO.frontend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Identity": "D:\\CuidadoBovinoMinticC3v2.0\\PROGRAMA_BOVINO.frontend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "SourceId": "PROGRAMA_BOVINO.frontend",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\CuidadoBovinoMinticC3\\PROGRAMA_BOVINO.frontend\\wwwroot\\",
+      "ContentRoot": "D:\\CuidadoBovinoMinticC3v2.0\\PROGRAMA_BOVINO.frontend\\wwwroot\\",
       "BasePath": "_content/PROGRAMA_BOVINO.frontend",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
       "AssetKind": "All",
@@ -459,10 +459,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Identity": "D:\\CuidadoBovinoMinticC3\\PROGRAMA_BOVINO.frontend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Identity": "D:\\CuidadoBovinoMinticC3v2.0\\PROGRAMA_BOVINO.frontend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "SourceId": "PROGRAMA_BOVINO.frontend",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\CuidadoBovinoMinticC3\\PROGRAMA_BOVINO.frontend\\wwwroot\\",
+      "ContentRoot": "D:\\CuidadoBovinoMinticC3v2.0\\PROGRAMA_BOVINO.frontend\\wwwroot\\",
       "BasePath": "_content/PROGRAMA_BOVINO.frontend",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
       "AssetKind": "All",
@@ -476,10 +476,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Identity": "D:\\CuidadoBovinoMinticC3\\PROGRAMA_BOVINO.frontend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Identity": "D:\\CuidadoBovinoMinticC3v2.0\\PROGRAMA_BOVINO.frontend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "SourceId": "PROGRAMA_BOVINO.frontend",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\CuidadoBovinoMinticC3\\PROGRAMA_BOVINO.frontend\\wwwroot\\",
+      "ContentRoot": "D:\\CuidadoBovinoMinticC3v2.0\\PROGRAMA_BOVINO.frontend\\wwwroot\\",
       "BasePath": "_content/PROGRAMA_BOVINO.frontend",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
       "AssetKind": "All",
@@ -493,10 +493,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Identity": "D:\\CuidadoBovinoMinticC3\\PROGRAMA_BOVINO.frontend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Identity": "D:\\CuidadoBovinoMinticC3v2.0\\PROGRAMA_BOVINO.frontend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "SourceId": "PROGRAMA_BOVINO.frontend",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\CuidadoBovinoMinticC3\\PROGRAMA_BOVINO.frontend\\wwwroot\\",
+      "ContentRoot": "D:\\CuidadoBovinoMinticC3v2.0\\PROGRAMA_BOVINO.frontend\\wwwroot\\",
       "BasePath": "_content/PROGRAMA_BOVINO.frontend",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
       "AssetKind": "All",
@@ -510,10 +510,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Identity": "D:\\CuidadoBovinoMinticC3\\PROGRAMA_BOVINO.frontend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Identity": "D:\\CuidadoBovinoMinticC3v2.0\\PROGRAMA_BOVINO.frontend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "SourceId": "PROGRAMA_BOVINO.frontend",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\CuidadoBovinoMinticC3\\PROGRAMA_BOVINO.frontend\\wwwroot\\",
+      "ContentRoot": "D:\\CuidadoBovinoMinticC3v2.0\\PROGRAMA_BOVINO.frontend\\wwwroot\\",
       "BasePath": "_content/PROGRAMA_BOVINO.frontend",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css",
       "AssetKind": "All",
@@ -527,10 +527,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Identity": "D:\\CuidadoBovinoMinticC3\\PROGRAMA_BOVINO.frontend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Identity": "D:\\CuidadoBovinoMinticC3v2.0\\PROGRAMA_BOVINO.frontend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "SourceId": "PROGRAMA_BOVINO.frontend",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\CuidadoBovinoMinticC3\\PROGRAMA_BOVINO.frontend\\wwwroot\\",
+      "ContentRoot": "D:\\CuidadoBovinoMinticC3v2.0\\PROGRAMA_BOVINO.frontend\\wwwroot\\",
       "BasePath": "_content/PROGRAMA_BOVINO.frontend",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css.map",
       "AssetKind": "All",
@@ -544,10 +544,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Identity": "D:\\CuidadoBovinoMinticC3\\PROGRAMA_BOVINO.frontend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Identity": "D:\\CuidadoBovinoMinticC3v2.0\\PROGRAMA_BOVINO.frontend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "SourceId": "PROGRAMA_BOVINO.frontend",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\CuidadoBovinoMinticC3\\PROGRAMA_BOVINO.frontend\\wwwroot\\",
+      "ContentRoot": "D:\\CuidadoBovinoMinticC3v2.0\\PROGRAMA_BOVINO.frontend\\wwwroot\\",
       "BasePath": "_content/PROGRAMA_BOVINO.frontend",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css",
       "AssetKind": "All",
@@ -561,10 +561,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "D:\\CuidadoBovinoMinticC3\\PROGRAMA_BOVINO.frontend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Identity": "D:\\CuidadoBovinoMinticC3v2.0\\PROGRAMA_BOVINO.frontend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "SourceId": "PROGRAMA_BOVINO.frontend",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\CuidadoBovinoMinticC3\\PROGRAMA_BOVINO.frontend\\wwwroot\\",
+      "ContentRoot": "D:\\CuidadoBovinoMinticC3v2.0\\PROGRAMA_BOVINO.frontend\\wwwroot\\",
       "BasePath": "_content/PROGRAMA_BOVINO.frontend",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -578,10 +578,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Identity": "D:\\CuidadoBovinoMinticC3\\PROGRAMA_BOVINO.frontend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Identity": "D:\\CuidadoBovinoMinticC3v2.0\\PROGRAMA_BOVINO.frontend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "SourceId": "PROGRAMA_BOVINO.frontend",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\CuidadoBovinoMinticC3\\PROGRAMA_BOVINO.frontend\\wwwroot\\",
+      "ContentRoot": "D:\\CuidadoBovinoMinticC3v2.0\\PROGRAMA_BOVINO.frontend\\wwwroot\\",
       "BasePath": "_content/PROGRAMA_BOVINO.frontend",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css",
       "AssetKind": "All",
@@ -595,10 +595,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Identity": "D:\\CuidadoBovinoMinticC3\\PROGRAMA_BOVINO.frontend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Identity": "D:\\CuidadoBovinoMinticC3v2.0\\PROGRAMA_BOVINO.frontend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "SourceId": "PROGRAMA_BOVINO.frontend",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\CuidadoBovinoMinticC3\\PROGRAMA_BOVINO.frontend\\wwwroot\\",
+      "ContentRoot": "D:\\CuidadoBovinoMinticC3v2.0\\PROGRAMA_BOVINO.frontend\\wwwroot\\",
       "BasePath": "_content/PROGRAMA_BOVINO.frontend",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css.map",
       "AssetKind": "All",
@@ -612,10 +612,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Identity": "D:\\CuidadoBovinoMinticC3\\PROGRAMA_BOVINO.frontend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Identity": "D:\\CuidadoBovinoMinticC3v2.0\\PROGRAMA_BOVINO.frontend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "SourceId": "PROGRAMA_BOVINO.frontend",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\CuidadoBovinoMinticC3\\PROGRAMA_BOVINO.frontend\\wwwroot\\",
+      "ContentRoot": "D:\\CuidadoBovinoMinticC3v2.0\\PROGRAMA_BOVINO.frontend\\wwwroot\\",
       "BasePath": "_content/PROGRAMA_BOVINO.frontend",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css",
       "AssetKind": "All",
@@ -629,10 +629,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Identity": "D:\\CuidadoBovinoMinticC3\\PROGRAMA_BOVINO.frontend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Identity": "D:\\CuidadoBovinoMinticC3v2.0\\PROGRAMA_BOVINO.frontend\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "SourceId": "PROGRAMA_BOVINO.frontend",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\CuidadoBovinoMinticC3\\PROGRAMA_BOVINO.frontend\\wwwroot\\",
+      "ContentRoot": "D:\\CuidadoBovinoMinticC3v2.0\\PROGRAMA_BOVINO.frontend\\wwwroot\\",
       "BasePath": "_content/PROGRAMA_BOVINO.frontend",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
       "AssetKind": "All",
@@ -646,10 +646,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Identity": "D:\\CuidadoBovinoMinticC3\\PROGRAMA_BOVINO.frontend\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Identity": "D:\\CuidadoBovinoMinticC3v2.0\\PROGRAMA_BOVINO.frontend\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "SourceId": "PROGRAMA_BOVINO.frontend",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\CuidadoBovinoMinticC3\\PROGRAMA_BOVINO.frontend\\wwwroot\\",
+      "ContentRoot": "D:\\CuidadoBovinoMinticC3v2.0\\PROGRAMA_BOVINO.frontend\\wwwroot\\",
       "BasePath": "_content/PROGRAMA_BOVINO.frontend",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js",
       "AssetKind": "All",
@@ -663,10 +663,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Identity": "D:\\CuidadoBovinoMinticC3\\PROGRAMA_BOVINO.frontend\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Identity": "D:\\CuidadoBovinoMinticC3v2.0\\PROGRAMA_BOVINO.frontend\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "SourceId": "PROGRAMA_BOVINO.frontend",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\CuidadoBovinoMinticC3\\PROGRAMA_BOVINO.frontend\\wwwroot\\",
+      "ContentRoot": "D:\\CuidadoBovinoMinticC3v2.0\\PROGRAMA_BOVINO.frontend\\wwwroot\\",
       "BasePath": "_content/PROGRAMA_BOVINO.frontend",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js.map",
       "AssetKind": "All",
@@ -680,10 +680,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Identity": "D:\\CuidadoBovinoMinticC3\\PROGRAMA_BOVINO.frontend\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Identity": "D:\\CuidadoBovinoMinticC3v2.0\\PROGRAMA_BOVINO.frontend\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "SourceId": "PROGRAMA_BOVINO.frontend",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\CuidadoBovinoMinticC3\\PROGRAMA_BOVINO.frontend\\wwwroot\\",
+      "ContentRoot": "D:\\CuidadoBovinoMinticC3v2.0\\PROGRAMA_BOVINO.frontend\\wwwroot\\",
       "BasePath": "_content/PROGRAMA_BOVINO.frontend",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js",
       "AssetKind": "All",
@@ -697,10 +697,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Identity": "D:\\CuidadoBovinoMinticC3\\PROGRAMA_BOVINO.frontend\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Identity": "D:\\CuidadoBovinoMinticC3v2.0\\PROGRAMA_BOVINO.frontend\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "SourceId": "PROGRAMA_BOVINO.frontend",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\CuidadoBovinoMinticC3\\PROGRAMA_BOVINO.frontend\\wwwroot\\",
+      "ContentRoot": "D:\\CuidadoBovinoMinticC3v2.0\\PROGRAMA_BOVINO.frontend\\wwwroot\\",
       "BasePath": "_content/PROGRAMA_BOVINO.frontend",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
       "AssetKind": "All",
@@ -714,10 +714,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Identity": "D:\\CuidadoBovinoMinticC3\\PROGRAMA_BOVINO.frontend\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Identity": "D:\\CuidadoBovinoMinticC3v2.0\\PROGRAMA_BOVINO.frontend\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "SourceId": "PROGRAMA_BOVINO.frontend",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\CuidadoBovinoMinticC3\\PROGRAMA_BOVINO.frontend\\wwwroot\\",
+      "ContentRoot": "D:\\CuidadoBovinoMinticC3v2.0\\PROGRAMA_BOVINO.frontend\\wwwroot\\",
       "BasePath": "_content/PROGRAMA_BOVINO.frontend",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js",
       "AssetKind": "All",
@@ -731,10 +731,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Identity": "D:\\CuidadoBovinoMinticC3\\PROGRAMA_BOVINO.frontend\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Identity": "D:\\CuidadoBovinoMinticC3v2.0\\PROGRAMA_BOVINO.frontend\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "SourceId": "PROGRAMA_BOVINO.frontend",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\CuidadoBovinoMinticC3\\PROGRAMA_BOVINO.frontend\\wwwroot\\",
+      "ContentRoot": "D:\\CuidadoBovinoMinticC3v2.0\\PROGRAMA_BOVINO.frontend\\wwwroot\\",
       "BasePath": "_content/PROGRAMA_BOVINO.frontend",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js.map",
       "AssetKind": "All",
@@ -748,10 +748,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Identity": "D:\\CuidadoBovinoMinticC3\\PROGRAMA_BOVINO.frontend\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Identity": "D:\\CuidadoBovinoMinticC3v2.0\\PROGRAMA_BOVINO.frontend\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "SourceId": "PROGRAMA_BOVINO.frontend",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\CuidadoBovinoMinticC3\\PROGRAMA_BOVINO.frontend\\wwwroot\\",
+      "ContentRoot": "D:\\CuidadoBovinoMinticC3v2.0\\PROGRAMA_BOVINO.frontend\\wwwroot\\",
       "BasePath": "_content/PROGRAMA_BOVINO.frontend",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js",
       "AssetKind": "All",
@@ -765,10 +765,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Identity": "D:\\CuidadoBovinoMinticC3\\PROGRAMA_BOVINO.frontend\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Identity": "D:\\CuidadoBovinoMinticC3v2.0\\PROGRAMA_BOVINO.frontend\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "SourceId": "PROGRAMA_BOVINO.frontend",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\CuidadoBovinoMinticC3\\PROGRAMA_BOVINO.frontend\\wwwroot\\",
+      "ContentRoot": "D:\\CuidadoBovinoMinticC3v2.0\\PROGRAMA_BOVINO.frontend\\wwwroot\\",
       "BasePath": "_content/PROGRAMA_BOVINO.frontend",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
       "AssetKind": "All",
@@ -782,10 +782,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Identity": "D:\\CuidadoBovinoMinticC3\\PROGRAMA_BOVINO.frontend\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Identity": "D:\\CuidadoBovinoMinticC3v2.0\\PROGRAMA_BOVINO.frontend\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "SourceId": "PROGRAMA_BOVINO.frontend",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\CuidadoBovinoMinticC3\\PROGRAMA_BOVINO.frontend\\wwwroot\\",
+      "ContentRoot": "D:\\CuidadoBovinoMinticC3v2.0\\PROGRAMA_BOVINO.frontend\\wwwroot\\",
       "BasePath": "_content/PROGRAMA_BOVINO.frontend",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js",
       "AssetKind": "All",
@@ -799,10 +799,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Identity": "D:\\CuidadoBovinoMinticC3\\PROGRAMA_BOVINO.frontend\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Identity": "D:\\CuidadoBovinoMinticC3v2.0\\PROGRAMA_BOVINO.frontend\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "SourceId": "PROGRAMA_BOVINO.frontend",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\CuidadoBovinoMinticC3\\PROGRAMA_BOVINO.frontend\\wwwroot\\",
+      "ContentRoot": "D:\\CuidadoBovinoMinticC3v2.0\\PROGRAMA_BOVINO.frontend\\wwwroot\\",
       "BasePath": "_content/PROGRAMA_BOVINO.frontend",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js.map",
       "AssetKind": "All",
@@ -816,10 +816,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Identity": "D:\\CuidadoBovinoMinticC3\\PROGRAMA_BOVINO.frontend\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Identity": "D:\\CuidadoBovinoMinticC3v2.0\\PROGRAMA_BOVINO.frontend\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "SourceId": "PROGRAMA_BOVINO.frontend",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\CuidadoBovinoMinticC3\\PROGRAMA_BOVINO.frontend\\wwwroot\\",
+      "ContentRoot": "D:\\CuidadoBovinoMinticC3v2.0\\PROGRAMA_BOVINO.frontend\\wwwroot\\",
       "BasePath": "_content/PROGRAMA_BOVINO.frontend",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js",
       "AssetKind": "All",
@@ -833,10 +833,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Identity": "D:\\CuidadoBovinoMinticC3\\PROGRAMA_BOVINO.frontend\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Identity": "D:\\CuidadoBovinoMinticC3v2.0\\PROGRAMA_BOVINO.frontend\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "SourceId": "PROGRAMA_BOVINO.frontend",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\CuidadoBovinoMinticC3\\PROGRAMA_BOVINO.frontend\\wwwroot\\",
+      "ContentRoot": "D:\\CuidadoBovinoMinticC3v2.0\\PROGRAMA_BOVINO.frontend\\wwwroot\\",
       "BasePath": "_content/PROGRAMA_BOVINO.frontend",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js.map",
       "AssetKind": "All",
@@ -850,10 +850,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Identity": "D:\\CuidadoBovinoMinticC3\\PROGRAMA_BOVINO.frontend\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Identity": "D:\\CuidadoBovinoMinticC3v2.0\\PROGRAMA_BOVINO.frontend\\wwwroot\\lib\\bootstrap\\LICENSE",
       "SourceId": "PROGRAMA_BOVINO.frontend",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\CuidadoBovinoMinticC3\\PROGRAMA_BOVINO.frontend\\wwwroot\\",
+      "ContentRoot": "D:\\CuidadoBovinoMinticC3v2.0\\PROGRAMA_BOVINO.frontend\\wwwroot\\",
       "BasePath": "_content/PROGRAMA_BOVINO.frontend",
       "RelativePath": "lib/bootstrap/LICENSE",
       "AssetKind": "All",
@@ -867,10 +867,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\LICENSE"
     },
     {
-      "Identity": "D:\\CuidadoBovinoMinticC3\\PROGRAMA_BOVINO.frontend\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Identity": "D:\\CuidadoBovinoMinticC3v2.0\\PROGRAMA_BOVINO.frontend\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "SourceId": "PROGRAMA_BOVINO.frontend",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\CuidadoBovinoMinticC3\\PROGRAMA_BOVINO.frontend\\wwwroot\\",
+      "ContentRoot": "D:\\CuidadoBovinoMinticC3v2.0\\PROGRAMA_BOVINO.frontend\\wwwroot\\",
       "BasePath": "_content/PROGRAMA_BOVINO.frontend",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "AssetKind": "All",
@@ -884,10 +884,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Identity": "D:\\CuidadoBovinoMinticC3\\PROGRAMA_BOVINO.frontend\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Identity": "D:\\CuidadoBovinoMinticC3v2.0\\PROGRAMA_BOVINO.frontend\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "SourceId": "PROGRAMA_BOVINO.frontend",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\CuidadoBovinoMinticC3\\PROGRAMA_BOVINO.frontend\\wwwroot\\",
+      "ContentRoot": "D:\\CuidadoBovinoMinticC3v2.0\\PROGRAMA_BOVINO.frontend\\wwwroot\\",
       "BasePath": "_content/PROGRAMA_BOVINO.frontend",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "AssetKind": "All",
@@ -901,10 +901,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Identity": "D:\\CuidadoBovinoMinticC3\\PROGRAMA_BOVINO.frontend\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Identity": "D:\\CuidadoBovinoMinticC3v2.0\\PROGRAMA_BOVINO.frontend\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "SourceId": "PROGRAMA_BOVINO.frontend",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\CuidadoBovinoMinticC3\\PROGRAMA_BOVINO.frontend\\wwwroot\\",
+      "ContentRoot": "D:\\CuidadoBovinoMinticC3v2.0\\PROGRAMA_BOVINO.frontend\\wwwroot\\",
       "BasePath": "_content/PROGRAMA_BOVINO.frontend",
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE.txt",
       "AssetKind": "All",
@@ -918,10 +918,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Identity": "D:\\CuidadoBovinoMinticC3\\PROGRAMA_BOVINO.frontend\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Identity": "D:\\CuidadoBovinoMinticC3v2.0\\PROGRAMA_BOVINO.frontend\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "SourceId": "PROGRAMA_BOVINO.frontend",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\CuidadoBovinoMinticC3\\PROGRAMA_BOVINO.frontend\\wwwroot\\",
+      "ContentRoot": "D:\\CuidadoBovinoMinticC3v2.0\\PROGRAMA_BOVINO.frontend\\wwwroot\\",
       "BasePath": "_content/PROGRAMA_BOVINO.frontend",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.js",
       "AssetKind": "All",
@@ -935,10 +935,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Identity": "D:\\CuidadoBovinoMinticC3\\PROGRAMA_BOVINO.frontend\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Identity": "D:\\CuidadoBovinoMinticC3v2.0\\PROGRAMA_BOVINO.frontend\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "SourceId": "PROGRAMA_BOVINO.frontend",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\CuidadoBovinoMinticC3\\PROGRAMA_BOVINO.frontend\\wwwroot\\",
+      "ContentRoot": "D:\\CuidadoBovinoMinticC3v2.0\\PROGRAMA_BOVINO.frontend\\wwwroot\\",
       "BasePath": "_content/PROGRAMA_BOVINO.frontend",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.min.js",
       "AssetKind": "All",
@@ -952,10 +952,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Identity": "D:\\CuidadoBovinoMinticC3\\PROGRAMA_BOVINO.frontend\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Identity": "D:\\CuidadoBovinoMinticC3v2.0\\PROGRAMA_BOVINO.frontend\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "SourceId": "PROGRAMA_BOVINO.frontend",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\CuidadoBovinoMinticC3\\PROGRAMA_BOVINO.frontend\\wwwroot\\",
+      "ContentRoot": "D:\\CuidadoBovinoMinticC3v2.0\\PROGRAMA_BOVINO.frontend\\wwwroot\\",
       "BasePath": "_content/PROGRAMA_BOVINO.frontend",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.js",
       "AssetKind": "All",
@@ -969,10 +969,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Identity": "D:\\CuidadoBovinoMinticC3\\PROGRAMA_BOVINO.frontend\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Identity": "D:\\CuidadoBovinoMinticC3v2.0\\PROGRAMA_BOVINO.frontend\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "SourceId": "PROGRAMA_BOVINO.frontend",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\CuidadoBovinoMinticC3\\PROGRAMA_BOVINO.frontend\\wwwroot\\",
+      "ContentRoot": "D:\\CuidadoBovinoMinticC3v2.0\\PROGRAMA_BOVINO.frontend\\wwwroot\\",
       "BasePath": "_content/PROGRAMA_BOVINO.frontend",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.min.js",
       "AssetKind": "All",
@@ -986,10 +986,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Identity": "D:\\CuidadoBovinoMinticC3\\PROGRAMA_BOVINO.frontend\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Identity": "D:\\CuidadoBovinoMinticC3v2.0\\PROGRAMA_BOVINO.frontend\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "SourceId": "PROGRAMA_BOVINO.frontend",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\CuidadoBovinoMinticC3\\PROGRAMA_BOVINO.frontend\\wwwroot\\",
+      "ContentRoot": "D:\\CuidadoBovinoMinticC3v2.0\\PROGRAMA_BOVINO.frontend\\wwwroot\\",
       "BasePath": "_content/PROGRAMA_BOVINO.frontend",
       "RelativePath": "lib/jquery-validation/LICENSE.md",
       "AssetKind": "All",
@@ -1003,10 +1003,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Identity": "D:\\CuidadoBovinoMinticC3\\PROGRAMA_BOVINO.frontend\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Identity": "D:\\CuidadoBovinoMinticC3v2.0\\PROGRAMA_BOVINO.frontend\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "SourceId": "PROGRAMA_BOVINO.frontend",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\CuidadoBovinoMinticC3\\PROGRAMA_BOVINO.frontend\\wwwroot\\",
+      "ContentRoot": "D:\\CuidadoBovinoMinticC3v2.0\\PROGRAMA_BOVINO.frontend\\wwwroot\\",
       "BasePath": "_content/PROGRAMA_BOVINO.frontend",
       "RelativePath": "lib/jquery/dist/jquery.js",
       "AssetKind": "All",
@@ -1020,10 +1020,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Identity": "D:\\CuidadoBovinoMinticC3\\PROGRAMA_BOVINO.frontend\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Identity": "D:\\CuidadoBovinoMinticC3v2.0\\PROGRAMA_BOVINO.frontend\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "SourceId": "PROGRAMA_BOVINO.frontend",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\CuidadoBovinoMinticC3\\PROGRAMA_BOVINO.frontend\\wwwroot\\",
+      "ContentRoot": "D:\\CuidadoBovinoMinticC3v2.0\\PROGRAMA_BOVINO.frontend\\wwwroot\\",
       "BasePath": "_content/PROGRAMA_BOVINO.frontend",
       "RelativePath": "lib/jquery/dist/jquery.min.js",
       "AssetKind": "All",
@@ -1037,10 +1037,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Identity": "D:\\CuidadoBovinoMinticC3\\PROGRAMA_BOVINO.frontend\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Identity": "D:\\CuidadoBovinoMinticC3v2.0\\PROGRAMA_BOVINO.frontend\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "SourceId": "PROGRAMA_BOVINO.frontend",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\CuidadoBovinoMinticC3\\PROGRAMA_BOVINO.frontend\\wwwroot\\",
+      "ContentRoot": "D:\\CuidadoBovinoMinticC3v2.0\\PROGRAMA_BOVINO.frontend\\wwwroot\\",
       "BasePath": "_content/PROGRAMA_BOVINO.frontend",
       "RelativePath": "lib/jquery/dist/jquery.min.map",
       "AssetKind": "All",
@@ -1054,10 +1054,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Identity": "D:\\CuidadoBovinoMinticC3\\PROGRAMA_BOVINO.frontend\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Identity": "D:\\CuidadoBovinoMinticC3v2.0\\PROGRAMA_BOVINO.frontend\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "SourceId": "PROGRAMA_BOVINO.frontend",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\CuidadoBovinoMinticC3\\PROGRAMA_BOVINO.frontend\\wwwroot\\",
+      "ContentRoot": "D:\\CuidadoBovinoMinticC3v2.0\\PROGRAMA_BOVINO.frontend\\wwwroot\\",
       "BasePath": "_content/PROGRAMA_BOVINO.frontend",
       "RelativePath": "lib/jquery/LICENSE.txt",
       "AssetKind": "All",

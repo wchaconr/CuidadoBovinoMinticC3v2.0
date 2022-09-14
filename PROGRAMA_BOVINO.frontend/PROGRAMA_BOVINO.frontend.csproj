@@ -2,6 +2,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\PROGRAMA_BOVINO.persistencia\PROGRAMA_BOVINO.persistencia.csproj" />
+    <ProjectReference Include="..\bovino.dominio\bovino.dominio.csproj" />
   </ItemGroup>
 
   <PropertyGroup>

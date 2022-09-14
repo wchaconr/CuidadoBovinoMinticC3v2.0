@@ -6,7 +6,7 @@ namespace bovino.dominio
     {
         public int id{get;set;}
         public int Id_Propietario{get;set;}
-        public int Nombre_Hacienda{get;set;}
+        public String Nombre_Hacienda{get;set;}
 
     }
 }

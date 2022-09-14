@@ -180,19 +180,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Usuario\\.nuget\\packages\\": {}
+    "C:\\Users\\Fredd\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\CuidadoBovinoMinticC3\\bovino.dominio\\bovino.dominio.csproj",
+      "projectUniqueName": "D:\\CuidadoBovinoMinticC3v2.0\\bovino.dominio\\bovino.dominio.csproj",
       "projectName": "bovino.dominio",
-      "projectPath": "D:\\CuidadoBovinoMinticC3\\bovino.dominio\\bovino.dominio.csproj",
-      "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-      "outputPath": "D:\\CuidadoBovinoMinticC3\\bovino.dominio\\obj\\",
+      "projectPath": "D:\\CuidadoBovinoMinticC3v2.0\\bovino.dominio\\bovino.dominio.csproj",
+      "packagesPath": "C:\\Users\\Fredd\\.nuget\\packages\\",
+      "outputPath": "D:\\CuidadoBovinoMinticC3v2.0\\bovino.dominio\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\Fredd\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netstandard2.0"
