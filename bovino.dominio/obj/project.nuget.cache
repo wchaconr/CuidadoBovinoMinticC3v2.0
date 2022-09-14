@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "TRRoylud11Ab2EbqcxJe8p2THuli4hquxxKkvccw/cYpgdnxo3/VIScj/NR9VSKMr4q5wHU0glGPgho5ku727Q==",
+  "success": true,
+  "projectFilePath": "D:\\CuidadoBovinoMinticC3\\bovino.dominio\\bovino.dominio.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Usuario\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\Usuario\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
