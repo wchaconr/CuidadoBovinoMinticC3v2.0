@@ -2025,19 +2025,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Fredd\\.nuget\\packages\\": {}
+    "C:\\Users\\Usuario\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\CuidadoBovinoMinticC3v2.0\\PROGRAMA_BOVINO.persistencia\\PROGRAMA_BOVINO.persistencia.csproj",
+      "projectUniqueName": "C:\\CuidadoBovinoMinticC3v2.0\\PROGRAMA_BOVINO.persistencia\\PROGRAMA_BOVINO.persistencia.csproj",
       "projectName": "PROGRAMA_BOVINO.persistencia",
-      "projectPath": "D:\\CuidadoBovinoMinticC3v2.0\\PROGRAMA_BOVINO.persistencia\\PROGRAMA_BOVINO.persistencia.csproj",
-      "packagesPath": "C:\\Users\\Fredd\\.nuget\\packages\\",
-      "outputPath": "D:\\CuidadoBovinoMinticC3v2.0\\PROGRAMA_BOVINO.persistencia\\obj\\",
+      "projectPath": "C:\\CuidadoBovinoMinticC3v2.0\\PROGRAMA_BOVINO.persistencia\\PROGRAMA_BOVINO.persistencia.csproj",
+      "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
+      "outputPath": "C:\\CuidadoBovinoMinticC3v2.0\\PROGRAMA_BOVINO.persistencia\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Fredd\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
@@ -2049,8 +2049,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\CuidadoBovinoMinticC3v2.0\\bovino.dominio\\bovino.dominio.csproj": {
-              "projectPath": "D:\\CuidadoBovinoMinticC3v2.0\\bovino.dominio\\bovino.dominio.csproj"
+            "C:\\CuidadoBovinoMinticC3v2.0\\bovino.dominio\\bovino.dominio.csproj": {
+              "projectPath": "C:\\CuidadoBovinoMinticC3v2.0\\bovino.dominio\\bovino.dominio.csproj"
             }
           }
         }

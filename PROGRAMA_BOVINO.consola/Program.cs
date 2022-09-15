@@ -20,7 +20,7 @@ namespace PROGRAMA_BOVINO.consola
             var Vaca = new Aper_vaca()
             {
                 
-                Cod_Vaca      = 888,
+                Cod_Vaca      = "888",
                 Nombre              = "Paloma",
                 Color            = "Cafe",
                 Raza           = "Brahman",
