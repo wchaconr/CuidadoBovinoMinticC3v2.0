@@ -13,17 +13,18 @@ namespace PROGRAMA_BOVINO.consola
         {
             Console.WriteLine("Hola Mundo");
             AdicionarVaca();
+            //buscarvaca(5);
         }
         private static void AdicionarVaca()
         {
             var Vaca = new Aper_vaca()
             {
                 
-                Cod_Vaca      = 999,
+                Cod_Vaca      = 888,
                 Nombre              = "Paloma",
                 Color            = "Cafe",
-                Raza           = "Braman",
-                Edad            = "3",
+                Raza           = "Brahman",
+                Edad            = "4",
                 Propietario              = "Pedro",
                 Veterinario              = "Carlos",
                 Ubicacion                  = "Finca el trebol"
@@ -33,6 +34,11 @@ namespace PROGRAMA_BOVINO.consola
             _Repo_Vacas.AddVaca(Vaca);
             
         }
+        //private static void buscarvaca(int idVaca)
+        //{
+          //  var Vaca= _Repo_Vacas.GetVaca(idVaca);
+            //Console.WriteLine(Vaca.Nombre);
+       // }
             
 }
 }

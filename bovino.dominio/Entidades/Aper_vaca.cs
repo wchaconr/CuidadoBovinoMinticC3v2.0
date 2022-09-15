@@ -6,13 +6,13 @@ namespace bovino.dominio
     {
         public int id{get;set;}
         public int Cod_Vaca{get;set;}
-        public String Nombre{get;set;}
-        public String Color{get;set;}
-        public String Raza{get;set;}
-        public String Edad{get;set;}
-        public String Propietario{get;set;}
-        public String Veterinario{get;set;}
-        public String Ubicacion{get;set;}
+        public string Nombre{get;set;}
+        public string Color{get;set;}
+        public string Raza{get;set;}
+        public string Edad{get;set;}
+        public string Propietario{get;set;}
+        public string Veterinario{get;set;}
+        public string Ubicacion{get;set;}
 
     }
 }

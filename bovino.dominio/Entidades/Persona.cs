@@ -6,12 +6,12 @@ namespace bovino.dominio
     {
         public int Id{get;set;}
         public int Identificacion{get;set;}
-        public String Nombre{get;set;}
-        public String Apellido{get;set;}
-        public String Direccion{get;set;}
-        public String Telefono{get;set;}
-        public String E_mail{get;set;}
-        public String Genero {get;set;}
+        public string Nombre{get;set;}
+        public string Apellido{get;set;}
+        public string Direccion{get;set;}
+        public string Telefono{get;set;}
+        public string E_mail{get;set;}
+        public string Genero {get;set;}
 
     }
 }
