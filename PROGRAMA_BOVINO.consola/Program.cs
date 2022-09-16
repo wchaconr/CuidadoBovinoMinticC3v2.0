@@ -8,37 +8,40 @@ namespace PROGRAMA_BOVINO.consola
 {
     class Programa 
     {
-        private static I_Repo_Vacas _Repo_Vacas = new Rep_Vacas (new persistencia.AppContext());
+       
+       
+
+       private static I_Repo_Historia_Clinica _Repo_Historia_Clinica = new Repo_Historia_Clinica (new persistencia.AppContext());
         static void Main (string[] args)
         {
             Console.WriteLine("Hola Mundo");
-            AdicionarVaca();
+            AdicionarHistoria();
             //buscarvaca(5);
         }
-        private static void AdicionarVaca()
+       private static void AdicionarHistoria()
         {
-            var Vaca = new Aper_vaca()
+            var Historia = new Historia_Clinica()
             {
                 
-                Cod_Vaca      = 888,
-                Nombre              = "Paloma",
-                Color            = "Cafe",
-                Raza           = "Brahman",
-                Edad            = "4",
-                Propietario              = "Pedro",
-                Veterinario              = "Carlos",
-                Ubicacion                  = "Finca el trebol"
+                Id_Historia                 = 001,
+                Fecha_Visita                = "15-09-2022",
+                Id_Vaca                     = 1,
+                Id_Veterinario              = 10,
+                Temperatura                 = 60.2,
+                Peso                        = 560.23,
+                Frecuencia_Respiratoria     = 90,
+                Frecuencia_Cardiaca         = 70,
+                Estado_Animo                = "Optimo",
+                Diagnostico                 = "El Bovino despies de los analisis realizados se encuentra en perfectas condiciones",
+                Recomendaciones             = "Ninguno",
+                Medicamentos                = "Ninguno"
+
 
 
             };
-            _Repo_Vacas.AddVaca(Vaca);
+            _Repo_Historia_Clinica.AddHistoria(Historia);
             
         }
-        //private static void buscarvaca(int idVaca)
-        //{
-          //  var Vaca= _Repo_Vacas.GetVaca(idVaca);
-            //Console.WriteLine(Vaca.Nombre);
-       // }
             
 }
 }

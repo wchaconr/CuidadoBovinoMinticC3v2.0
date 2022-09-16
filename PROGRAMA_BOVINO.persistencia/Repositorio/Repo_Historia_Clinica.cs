@@ -35,6 +35,7 @@ namespace PROGRAMA_BOVINO.persistencia
             var historiaEncontrado =_appContext.Historias_Clinicas.FirstOrDefault(p=>p.id==historia.id);
             if(historiaEncontrado!=null)
             {
+                        historiaEncontrado.Id_Historia=historia.Id_Historia;
                         historiaEncontrado.Fecha_Visita=historia.Fecha_Visita;
                         historiaEncontrado.Id_Vaca=historia.Id_Vaca;
                         historiaEncontrado.Id_Veterinario=historia.Id_Veterinario;

@@ -23,7 +23,7 @@ namespace PROGRAMA_BOVINO.persistencia
         }
         void I_Repo_Propietario.DeletePropietario(int Id_Propietario)
         {
-            var propietarioEncontrado=_appContext.Aper_Propietarios.FirstOrDefault(p=>p.id==Id_Propietario);
+            var propietarioEncontrado=_appContext.Aper_Propietarios.FirstOrDefault(p=>p.Identificacion==Id_Propietario);
            if(propietarioEncontrado==null)
            {
                 return;
@@ -32,10 +32,10 @@ namespace PROGRAMA_BOVINO.persistencia
             _appContext.SaveChanges();
                 }
         Aper_propietario I_Repo_Propietario.UpdatePropietario(Aper_propietario propietario){
-            var propietarioEncontrado =_appContext.Aper_Propietarios.FirstOrDefault(p=>p.id==propietario.id);
+            var propietarioEncontrado =_appContext.Aper_Propietarios.FirstOrDefault(p=>p.Identificacion==propietario.Identificacion);
             if(propietarioEncontrado!=null)
             {
-                        
+                        propietarioEncontrado.Identificacion=propietario.Identificacion;
                         propietarioEncontrado.Nombre=propietario.Nombre;
                         propietarioEncontrado.Apellido=propietario.Apellido;
                         propietarioEncontrado.Direccion=propietario.Direccion;
@@ -49,7 +49,7 @@ namespace PROGRAMA_BOVINO.persistencia
                 }
                 Aper_propietario I_Repo_Propietario.GetPropietario(int Id_Propietario)
                 {
-                    return _appContext.Aper_Propietarios.FirstOrDefault(p=>p.id==Id_Propietario);
+                    return _appContext.Aper_Propietarios.FirstOrDefault(p=>p.Identificacion==Id_Propietario);
                 }
             }
         }

@@ -5,7 +5,7 @@ namespace bovino.dominio
     public class Aper_vaca
     {
         public int id{get;set;}
-        public int Cod_Vaca{get;set;}
+        public string Cod_Vaca{get;set;}
         public string Nombre{get;set;}
         public string Color{get;set;}
         public string Raza{get;set;}

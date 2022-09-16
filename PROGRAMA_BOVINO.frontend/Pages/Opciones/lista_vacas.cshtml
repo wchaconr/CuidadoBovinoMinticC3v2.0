@@ -2,8 +2,6 @@
 @model cuidadobovinominticc3.Pages.lista_vacasModel
 @{
 }
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -11,8 +9,8 @@
 	<title>LISTADO DE BOVINOS</title>
 </head>
 <body>
-
-	<section id="container">
+<br>
+    <section id="container">
         <h1><img  src="https://cdn.icon-icons.com/icons2/1446/PNG/512/22234cow_98756.png"width="60"/> Listado de Bovinos</h1>
         <a href="aper_vacas" class="btn_new"><img  src="https://cdn.icon-icons.com/icons2/1446/PNG/512/22234cow_98756.png"width="30"/> Crear Bovino</a>
         <form action="buscar_vacas" method="get" class="form_search">
@@ -33,47 +31,35 @@
             <th>Ubicación</th>
             <th>Acción</th>
           </tr>
+          
           @foreach (var vaca in Model.Vaca)
           {
-            <td>@vaca.Cod_Vaca</td>
-            <td>@vaca.Nombre</td>
-            <td>@vaca.Color</td>
-            <td>@vaca.Raza</td>
-            <td>@vaca.Edad</td>
-            <td>@vaca.Propietario</td>
-            <td>@vaca.Veterinario</td>
-            <td>@vaca.Ubicacion</td>
+            <tr>
+              <td>@vaca.id</td>
+              <td>@vaca.Cod_Vaca</td>
+              <td>@vaca.Nombre</td>
+              <td>@vaca.Color</td>
+              <td>@vaca.Raza</td>
+              <td>@vaca.Edad</td>
+              <td>@vaca.Propietario</td>
+              <td>@vaca.Veterinario</td>
+              <td>@vaca.Ubicacion</td>
+              <td>
+                      <a class="link_edit" href="editar_vaca"><img src="https://cdn.icon-icons.com/icons2/412/PNG/128/DocumentEdit_40924.png"width="20" /> Editar</a>
+                      
+                      |
+                      <a class="link_delete" href="eliminar_vaca"><img src="https://cdn.icon-icons.com/icons2/1150/PNG/512/1486504830-delete-dustbin-empty-recycle-recycling-remove-trash_81361.png"width="20" /> Eliminar</a>
+                      
+                
+              </td>
+              
+            </tr>
           }
-           </table>
+          
+        </table>
+        
 	</section>
 </body>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 <style>
 *{
@@ -309,7 +295,7 @@ table{
   width: 100%;
 }
 table th{
-  text-align: left;
+  text-align: center;
   padding: 10px;
   background: #3d7ba8;
   color: #FFF;
@@ -319,6 +305,7 @@ table tr:nth-child(odd){
 
 }
 table td{
+  text-align: center;
   padding: 6px;
 }
 .link_edit{

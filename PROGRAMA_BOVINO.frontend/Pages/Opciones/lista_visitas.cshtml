@@ -1,5 +1,6 @@
 ﻿@page
 @model cuidadobovinominticc3.Pages.lista_visitasModel
+
 @{
 }
 
@@ -13,8 +14,8 @@
 <body>
 
 	<section id="container">
-        <h1><img src="https://cdn.icon-icons.com/icons2/2328/PNG/512/virus_medical_records_diagnosis_document_icon_142217.png"width="60" /> Listado de Visitas</h1>
-        <a href="visitas" class="btn_new"><img src="https://cdn.icon-icons.com/icons2/2328/PNG/512/virus_medical_records_diagnosis_document_icon_142217.png"width="30" /> Crear Visita</a>
+        <h1><img src="https://cdn.icon-icons.com/icons2/2298/PNG/512/diagnosis_coronavirus_covid_symstoms_information_checklist_icon_141627.png"width="60" /> Listado de Visitas</h1>
+        <a href="visitas" class="btn_new"><img src="https://cdn.icon-icons.com/icons2/2298/PNG/512/diagnosis_coronavirus_covid_symstoms_information_checklist_icon_141627.png"width="30" /> Crear Visita</a>
         <form action="buscar_visita" method="get" class="form_search">
           <input type="text" name="busqueda" id="busqueda" placeholder="Buscar">
           <button type="submit" class="btn_search"><i class="fa-solid fa-magnifying-glass"></i></button>
@@ -23,7 +24,7 @@
         <table>
           <tr>
             <th>ID</th>
-            <th>Codigo</th>
+            <th>Historia</th>
             <th>Fecha</th>
             <th>Vaca</th>
             <th>Veterinario</th>
@@ -32,12 +33,49 @@
             <th>Respiratoria</th>
             <th>Cardiaca</th>
             <th>Estado</th>
-            <th>Diagnostico</th>
+            @*<th>Diagnostico</th>
             <th>Recomendaciones</th>
-            <th>Medicamentos</th>
+            <th>Medicamentos</th>*@
             <th>Acción</th>
           </tr>
+          @foreach (var historia in Model.Historia)
+          {
+            <tr>
+              <td>@historia.id</td>
+              <td>@historia.Id_Historia</td>
+              <td>@historia.Fecha_Visita</td>
+              <td>@historia.Id_Vaca</td>
+              <td>@historia.Id_Veterinario</td>
+              <td>@historia.Temperatura</td>
+              <td>@historia.Peso</td>
+              <td>@historia.Frecuencia_Respiratoria</td>
+              <td>@historia.Frecuencia_Cardiaca</td>
+              <td>@historia.Estado_Animo</td>
+              @*<td>@historia.Diagnostico</td>
+              <td>@historia.Recomendaciones</td>
+              <td>@historia.Medicamentos</td>*@
+              <td>
+                      <a class="link_edit" href="editar_historia"><img src="https://cdn.icon-icons.com/icons2/412/PNG/128/DocumentEdit_40924.png"width="30" /> Editar</a>
+                      
+                      |
+                      <a class="link_delete" href="eliminar_confirmar_historia"><img src="https://cdn.icon-icons.com/icons2/1150/PNG/512/1486504830-delete-dustbin-empty-recycle-recycling-remove-trash_81361.png"width="30" /> Eliminar</a>
+
+                      |
+                      <a class="link_delete" href="ver_historia"><img src="https://cdn.icon-icons.com/icons2/2575/PNG/512/vision_view_eye_icon_153887.png"width="30" /> Ver</a>
+                       
+                      
+                      
+                
+              </td>
+              
+            </tr>
+          }
+          
+        </table>
         
+
+
+
 
 
 	</section>
@@ -276,7 +314,7 @@ table{
   width: 100%;
 }
 table th{
-  text-align: left;
+  text-align: center;
   padding: 10px;
   background: #3d7ba8;
   color: #FFF;
@@ -286,6 +324,7 @@ table tr:nth-child(odd){
 
 }
 table td{
+  text-align: center;
   padding: 6px;
 }
 .link_edit{
@@ -466,5 +505,6 @@ table td{
 }
 </style>
 </html>
+
 
 

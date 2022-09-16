@@ -34,6 +34,31 @@
             <th>Hacienda</th>
             <th>Acción</th>
           </tr>
+          @foreach (var propietario in Model.Propietario)
+          {
+            <tr>
+              <td>@propietario.Id_Propietario</td>
+              <td>@propietario.Identificacion</td>
+              <td>@propietario.Nombre</td>
+              <td>@propietario.Apellido</td>
+              <td>@propietario.Direccion</td>
+              <td>@propietario.Telefono</td>
+              <td>@propietario.Genero</td>
+              <td>@propietario.E_mail</td>
+              <td>@propietario.Nombre_Hacienda</td>
+              <td>
+                      <a class="link_edit" href="editar_propietario"><img src="https://cdn.icon-icons.com/icons2/412/PNG/128/DocumentEdit_40924.png"width="20" /> Editar</a>
+                      
+                      |
+                      <a class="link_delete" href="eliminar_propietario"><img src="https://cdn.icon-icons.com/icons2/1150/PNG/512/1486504830-delete-dustbin-empty-recycle-recycling-remove-trash_81361.png"width="20" /> Eliminar</a>
+                      
+                
+              </td>
+              
+            </tr>
+          }
+          
+        </table>
         
 
 
@@ -273,7 +298,7 @@ table{
   width: 100%;
 }
 table th{
-  text-align: left;
+  text-align: center;
   padding: 10px;
   background: #3d7ba8;
   color: #FFF;
@@ -283,6 +308,7 @@ table tr:nth-child(odd){
 
 }
 table td{
+  text-align: center;
   padding: 6px;
 }
 .link_edit{
