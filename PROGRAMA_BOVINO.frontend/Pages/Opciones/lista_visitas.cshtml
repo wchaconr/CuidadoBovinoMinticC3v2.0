@@ -23,17 +23,17 @@
       <div class="containerTable">
         <table>
           <tr>
-            <th>ID</th>
-            <th>Historia</th>
+            
+            <th>Cod. Historia</th>
             <th>Fecha</th>
-            <th>Vaca</th>
-            <th>Veterinario</th>
-            <th>Temperatura</th>
+            <th>Codigo Vaca</th>
+            <th>Id Veterinario</th>
+            @*<th>Temperatura</th>
             <th>Peso</th>
             <th>Respiratoria</th>
             <th>Cardiaca</th>
             <th>Estado</th>
-            @*<th>Diagnostico</th>
+            <th>Diagnostico</th>
             <th>Recomendaciones</th>
             <th>Medicamentos</th>*@
             <th>Acción</th>
@@ -41,17 +41,17 @@
           @foreach (var historia in Model.Historia)
           {
             <tr>
-              <td>@historia.id</td>
+              
               <td>@historia.Id_Historia</td>
               <td>@historia.Fecha_Visita</td>
               <td>@historia.Id_Vaca</td>
               <td>@historia.Id_Veterinario</td>
-              <td>@historia.Temperatura</td>
+               @*<td>@historia.Temperatura</td>
               <td>@historia.Peso</td>
               <td>@historia.Frecuencia_Respiratoria</td>
               <td>@historia.Frecuencia_Cardiaca</td>
               <td>@historia.Estado_Animo</td>
-              @*<td>@historia.Diagnostico</td>
+             <td>@historia.Diagnostico</td>
               <td>@historia.Recomendaciones</td>
               <td>@historia.Medicamentos</td>*@
               <td>
