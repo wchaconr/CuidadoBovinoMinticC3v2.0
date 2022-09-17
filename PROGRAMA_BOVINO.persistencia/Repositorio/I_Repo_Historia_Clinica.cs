@@ -8,8 +8,8 @@ namespace PROGRAMA_BOVINO.persistencia
         IEnumerable<Historia_Clinica>GetAllHistoria();
         Historia_Clinica AddHistoria(Historia_Clinica historia);
         Historia_Clinica UpdateHistoria(Historia_Clinica historia);
-        void DeleteHistoria(int Id_Historia);
-        Historia_Clinica GetHistoria(int Id_Historia);
+        void DeleteHistoria(int idhistoria);
+        Historia_Clinica GetHistoria(int idhistoria);
 
     }
     

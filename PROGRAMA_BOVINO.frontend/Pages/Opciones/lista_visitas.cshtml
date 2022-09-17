@@ -23,7 +23,7 @@
       <div class="containerTable">
         <table>
           <tr>
-            
+            <th>Id</th>
             <th>Cod. Historia</th>
             <th>Fecha</th>
             <th>Codigo Vaca</th>
@@ -41,7 +41,7 @@
           @foreach (var historia in Model.Historia)
           {
             <tr>
-              
+              <td>@historia.id</td>
               <td>@historia.Id_Historia</td>
               <td>@historia.Fecha_Visita</td>
               <td>@historia.Id_Vaca</td>
@@ -61,7 +61,7 @@
                       <a class="link_delete" href="eliminar_confirmar_historia"><img src="https://cdn.icon-icons.com/icons2/1150/PNG/512/1486504830-delete-dustbin-empty-recycle-recycling-remove-trash_81361.png"width="30" /> Eliminar</a>
 
                       |
-                      <a class="link_delete" href="ver_historia"><img src="https://cdn.icon-icons.com/icons2/2575/PNG/512/vision_view_eye_icon_153887.png"width="30" /> Ver</a>
+                      <a class="link_detalle" asp-page="ver_historia" asp-route-idhistoria="@historia.id"><img src="https://cdn.icon-icons.com/icons2/2575/PNG/512/vision_view_eye_icon_153887.png"width="30"/> Ver</a>
                        
                       
                       

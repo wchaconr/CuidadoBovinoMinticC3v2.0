@@ -10,21 +10,32 @@ using Microsoft.AspNetCore.Authorization;
 
 namespace cuidadobovinominticc3.Pages
 {
-    public class lista_vacasModel : PageModel
+    public class ver_vacaModel : PageModel
     {
         private readonly I_Repo_Vacas repovacas;
 
-        public IEnumerable<Aper_vaca> Vaca { set; get; }
-        public lista_vacasModel()
+        public Aper_vaca verVaca { set; get; }
+        public ver_vacaModel()
         {
             this.repovacas = new Rep_Vacas(new PROGRAMA_BOVINO.persistencia.AppContext());
         }
 
         
 
-        public void OnGet(string filtro)
+        public IActionResult OnGet(int IdVaca)
+
         {
-            Vaca = repovacas.GetAllVaca();
+            verVaca = repovacas.GetVaca(IdVaca);
+
+            if (verVaca == null)
+            {
+                return RedirectToPage("inicio");
+            }
+            else
+            {
+                return Page();
+            }
         }
     }
 }
+

@@ -35,6 +35,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcT3BjaW9uZXNcYXBlcl92ZXRlcmluYXJpby5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/CuidadoBovinoMinticC3v3/PROGRAMA_BOVINO.frontend/Pages/Opciones/buscar_vaca.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcT3BjaW9uZXNcYnVzY2FyX3ZhY2EuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/CuidadoBovinoMinticC3v3/PROGRAMA_BOVINO.frontend/Pages/Opciones/editar_historia.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcT3BjaW9uZXNcZWRpdGFyX2hpc3RvcmlhLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
@@ -89,6 +93,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [D:/CuidadoBovinoMinticC3v3/PROGRAMA_BOVINO.frontend/Pages/Opciones/ver_historia.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcT3BjaW9uZXNcdmVyX2hpc3RvcmlhLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/CuidadoBovinoMinticC3v3/PROGRAMA_BOVINO.frontend/Pages/Opciones/ver_vaca.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcT3BjaW9uZXNcdmVyX3ZhY2EuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/CuidadoBovinoMinticC3v3/PROGRAMA_BOVINO.frontend/Pages/Opciones/visitas.cshtml]

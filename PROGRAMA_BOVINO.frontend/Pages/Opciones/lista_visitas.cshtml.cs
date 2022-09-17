@@ -14,14 +14,14 @@ namespace cuidadobovinominticc3.Pages
     {
                 private readonly I_Repo_Historia_Clinica repohistoria;
 
-                public IEnumerable <Historia_Clinica> Historia {set;get;}
+                public IEnumerable <Historia_Clinica> Historia {set; get;}
                 public lista_visitasModel()
                 {
                     this.repohistoria=new Repo_Historia_Clinica(new PROGRAMA_BOVINO.persistencia.AppContext());
                 }
                 
                 
-                public void OnGet(string filtro)
+                public void OnGet()
                 {
                     Historia=repohistoria.GetAllHistoria();
                 }

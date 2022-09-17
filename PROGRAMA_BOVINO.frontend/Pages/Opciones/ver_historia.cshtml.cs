@@ -12,29 +12,34 @@ namespace cuidadobovinominticc3.Pages
 {
     public class ver_historiaModel : PageModel
     {
-                private readonly I_Repo_Historia_Clinica repohistoria;
+        private readonly I_Repo_Historia_Clinica repohistoria;
 
-
-
-                public Historia_Clinica Historia {set;get;}
+                public Historia_Clinica Historia{set;get;}
                 public ver_historiaModel()
                 {
-                    this.repohistoria=new Repo_Historia_Clinica(new PROGRAMA_BOVINO.persistencia.AppContext());
+                   this.repohistoria=new Repo_Historia_Clinica(new PROGRAMA_BOVINO.persistencia.AppContext());
                 }
                 
-                public IActionResult OnGet(int Id_Historia)
+                
+                public IActionResult OnGet(int IdHistoria)
                 
                 {
-                    Historia=repohistoria.GetHistoria(Id_Historia);
+                    Historia=repohistoria.GetHistoria(IdHistoria);
 
                     if(Historia == null)
                     {
-                        return RedirectToPage("./NoFound");
+                        return RedirectToPage("inicio");
                     }
                     else
                     {
                         return Page();
                     }
                 }
+                
             }
+            
         }
+        
+
+
+        

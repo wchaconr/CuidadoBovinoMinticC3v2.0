@@ -1,5 +1,5 @@
 ﻿@page
-@model cuidadobovinominticc3.Pages.ver_historiaModel
+@model cuidadobovinominticc3.Pages.buscar_vacaModel
 @{
 }
 <!DOCTYPE html>
@@ -15,82 +15,10 @@
         <a href="visitas" class="btn_new"><img  src="https://cdn.icon-icons.com/icons2/2298/PNG/512/diagnosis_coronavirus_covid_symstoms_information_checklist_icon_141627.png"width="30"/> Crear Visita</a>
         <a href="lista_visitas" class="btn_new"><img  src="https://cdn.icon-icons.com/icons2/2298/PNG/512/diagnosis_coronavirus_covid_symstoms_information_checklist_icon_141627.png"width="30"/> Listado de Visita</a>
         
-
-        @*<div>Id Historia: @Model.Historia.Id_Historia</div>
-        <div>Fecha: @Model.Historia.Fecha_Visita</div>
-        <div>Id vaca: @Model.Historia.Id_Vaca</div>*@
-       <div class="row d-flex justify-content-end">
-                <div class="col-xxl-10 col-xl-10 col-lg-10 col-md-3 col-sm-12" >
-                    <label for="" class="_label mb-1">Fecha:</label>
-                    <input type="text" disabled class="form-control -sm col-3" name="txtfecha" id="txtfecha" value="@Model.Historia.Fecha_Visita">
-                </div>
-                <div class="col-xxl-2 col-xl-2 col-lg-2 col-md-3 col-sm-12" >
-                    <label for="" class="_label mb-1">Codigo Historia Clinica:</label>
-                    <input type="text" disabled class="form-control1 -sm col-3" name="txtId_Historia" id="txtId_Historia" value="@Model.Historia.Id_Historia">
-                </div>
-                
-                
-            </div>
-      <br>
+        
+      
        
-      <div class="">
-            <div class="row">
-                <div class="col-4">
-                    <label for="validationCustom01" class="_label mb-1">Codigo Bovino</label>
-                    <input type="text" disabled class="form-control2" id="version" value="@Model.Historia.Id_Vaca">
-                </div>
-                <div class="col-4">
-                    <label for="validationCustom01" class="_label mb-1">Id Veterinario</label>
-                    <input type="text" disabled class="form-control2" id="version" value="@Model.Historia.Id_Veterinario">
-                </div>
-                <div class="col-4">
-                    <label for="validationCustom01" class="_label mb-1">Temperatura</label>
-                    <input type="text" disabled class="form-control2" id="version" value="@Model.Historia.Temperatura">
-                </div>
-            </div>
-        </div>
-        <div class="" >
-            <div class="row">
-                <div class="col-4" style="position:relative">
-                    <label for="validationCustom01" class="_label mb-1">Peso</label>
-                    <input type="text" disabled class="form-control2" id="version" value="@Model.Historia.Peso">
-                </div>
-                <div class="col-4" style="position:relative">
-                    <label for="validationCustom01" class="_label mb-1">Frecuencia Respiratoria</label>
-                    <input type="text" disabled class="form-control2" id="version" value="@Model.Historia.Frecuencia_Respiratoria">
-                </div>
-                <div class="col-4" style="position:relative">
-                    <label for="validationCustom01" class="_label mb-1">Frecuencia Cardiaca</label>
-                    <input type="text" disabled class="form-control2" id="version" value="@Model.Historia.Frecuencia_Cardiaca">
-                </div>
-            </div>
-            
-        </div>
-
-
-
-        <div class="row" >
-            <div class="col-xxl-12 col-xl-12 col-lg-12 col-md-12 col-sm-12">
-                <label for="" class="_label mb-1">Diagnostico:</label>
-                <div class="input-group mb-2" >
-                <textarea type="textarea" disabled class="form-control3"  id="txtDiagnostico"  rows="3" class="form-control form-control-sm">@Model.Historia.Diagnostico</textarea>
-                
-                   
-                </div>
-                <label for="" class="_label mb-1 mt-3">Recomendaciones:</label>
-                <div class="input-group mb-2" >
-                    <textarea type="text" disabled class="form-control3" name="" data-tipo-erro="" data-required="true" id="txtRecomendaciones" rows="3" class="form-control form-control-sm">@Model.Historia.Recomendaciones</textarea>
-                   
-                </div>
-                <label for="" class="_label mb-1 mt-3">Medicamentos:</label>
-                <div class="input-group mb-2" >
-                    <textarea type="text" disabled class="form-control3" id="txtMedicamentos"  rows="3" class="form-control form-control-sm">@Model.Historia.Medicamentos</textarea>
-                    
-                    
-                </div>
-            </div>
-            </div>
-        </div>
+      
 
 </body>
 <style>
@@ -187,11 +115,10 @@ header{
   transition: 0.5s ease-in;
   outline: none;
   box-shadow: none;
-  border-radius: 5px;
+  border-radius: 20px;
   position: relative;
-  height: 100px;
+  height: 75px;
   justify-content: right;
-  
 }
 ._label{
   font-size: 14px;
