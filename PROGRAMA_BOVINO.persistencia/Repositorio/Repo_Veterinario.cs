@@ -21,9 +21,9 @@ namespace PROGRAMA_BOVINO.persistencia
         {
             return _appContext.Aper_Veterinarios;
         }
-        void I_Repo_Veterinario.DeleteVeterinario(int Id_Veterinario)
+        void I_Repo_Veterinario.DeleteVeterinario(int idVeterinario)
         {
-            var veterinarioEncontrado=_appContext.Aper_Veterinarios.FirstOrDefault(p=>p.Identificacion==Id_Veterinario);
+            var veterinarioEncontrado=_appContext.Aper_Veterinarios.FirstOrDefault(p=>p.Id==idVeterinario);
            if(veterinarioEncontrado==null)
            {
                 return;
@@ -32,10 +32,10 @@ namespace PROGRAMA_BOVINO.persistencia
             _appContext.SaveChanges();
                 }
         Aper_veterinario I_Repo_Veterinario.UpdateVeterinario(Aper_veterinario veterinario){
-            var veterinarioEncontrado =_appContext.Aper_Veterinarios.FirstOrDefault(p=>p.Identificacion==veterinario.Identificacion);
+            var veterinarioEncontrado =_appContext.Aper_Veterinarios.FirstOrDefault(p=>p.Id==veterinario.Id);
             if(veterinarioEncontrado!=null)
             {
-                        //veterinarioEncontrado.Id_Veterinario=veterinario.Id_Veterinario;
+                        veterinarioEncontrado.Id_Veterinario=veterinario.Id_Veterinario;
                         veterinarioEncontrado.Identificacion=veterinario.Identificacion;
                         veterinarioEncontrado.Nombre=veterinario.Nombre;
                         veterinarioEncontrado.Apellido=veterinario.Apellido;
@@ -48,9 +48,9 @@ namespace PROGRAMA_BOVINO.persistencia
                     }
                     return veterinarioEncontrado;
                 }
-                Aper_veterinario I_Repo_Veterinario.GetVeterinario(int Id_Veterinario)
+                Aper_veterinario I_Repo_Veterinario.GetVeterinario(int IdVeterinario)
                 {
-                    return _appContext.Aper_Veterinarios.FirstOrDefault(p=>p.Identificacion==Id_Veterinario);
+                    return _appContext.Aper_Veterinarios.FirstOrDefault(p=>p.Id==IdVeterinario);
                 }
             }
         }

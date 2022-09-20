@@ -9,7 +9,7 @@ namespace PROGRAMA_BOVINO.persistencia
         Aper_propietario AddPropietario(Aper_propietario propietario);
         Aper_propietario UpdatePropietario(Aper_propietario propietario);
         void DeletePropietario(int Id_Propietario);
-        Aper_propietario GetPropietario(int Id_Propietario);
+        Aper_propietario GetPropietario(int idPropietario);
 
     }
     

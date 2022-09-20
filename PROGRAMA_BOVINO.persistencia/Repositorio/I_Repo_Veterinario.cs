@@ -9,7 +9,7 @@ namespace PROGRAMA_BOVINO.persistencia
         Aper_veterinario AddVeterinario(Aper_veterinario veterinario);
         Aper_veterinario UpdateVeterinario(Aper_veterinario veterinario);
         void DeleteVeterinario(int Id_Veterinario);
-        Aper_veterinario GetVeterinario(int Id_Veterinario);
+        Aper_veterinario GetVeterinario(int idVeterinario);
 
     }
     

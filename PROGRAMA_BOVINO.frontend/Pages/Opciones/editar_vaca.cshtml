@@ -2,3 +2,59 @@
 @model cuidadobovinominticc3.Pages.editar_vacaModel
 @{
 }
+<br>
+<br>
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+	<meta charset="UTF-8">
+	<title>Registro Bovinos</title>
+</head>
+<body>
+<section id="container">
+    <div class="form_register">
+        <h1><img  src="https://cdn.icon-icons.com/icons2/1446/PNG/512/22234cow_98756.png"width="50"/> Editar Bovinos</h1>
+        <form method="post">
+            <input type="hidden" asp-for="Vaca.id"/>
+            
+                <label asp-for="Vaca.Cod_Vaca">Codigo Bovino</label>
+                <input asp-for="Vaca.Cod_Vaca" >
+                <span asp-validation-for="Vaca.Cod_Vaca"></span>
+                <label asp-for="Vaca.Nombre">Nombre Bovino</label>
+                <input asp-for="Vaca.Nombre" >
+                <span asp-validation-for="Vaca.Nombre"></span>
+                <label asp-for="Vaca.Color">Color Bovino</label>
+                <input asp-for="Vaca.Color" >
+                <span asp-validation-for="Vaca.Color"></span>
+                <label asp-for="Vaca.Raza">Raza</label>
+                <input asp-for="Vaca.Raza" >
+                <span asp-validation-for="Vaca.Raza"></span>
+                <label asp-for="Vaca.Edad">Edad Bovino</label>
+                <input asp-for="Vaca.Edad" >
+                <span asp-validation-for="Vaca.Edad"></span>
+                <label asp-for="Vaca.Propietario">Propietario del Bovino</label>
+                <input asp-for="Vaca.Propietario" >
+                <span asp-validation-for="Vaca.Propietario"></span>
+                <label asp-for="Vaca.Veterinario">Veterinario del Bovino</label>
+                <input asp-for="Vaca.Veterinario" >
+                <span asp-validation-for="Vaca.Veterinario"></span>
+                <label asp-for="Vaca.Ubicacion">Ubicación del Bovino</label>
+                <input asp-for="Vaca.Ubicacion" >
+                <span asp-validation-for="Vaca.Ubicacion"></span>
+                
+                
+            
+            
+				<button type="submit" class="btn_save"><i class="fa-solid fa-floppy-disk"></i> Editar Datos del Bovino</button>
+
+        </form>
+    </div>
+
+
+</section>
+</body>
+</html>

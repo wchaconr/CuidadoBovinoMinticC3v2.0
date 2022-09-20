@@ -12,19 +12,22 @@ namespace cuidadobovinominticc3.Pages
 {
     public class lista_vacasModel : PageModel
     {
-        private readonly I_Repo_Vacas repovacas;
+        private readonly I_Repo_Vacas repovacas ;
 
         public IEnumerable<Aper_vaca> Vaca { set; get; }
         public lista_vacasModel()
         {
-            this.repovacas = new Rep_Vacas(new PROGRAMA_BOVINO.persistencia.AppContext());
+            this.repovacas = new Rep_Vacas( new PROGRAMA_BOVINO.persistencia.AppContext());
+            
         }
 
         
 
         public void OnGet(string filtro)
         {
+            
             Vaca = repovacas.GetAllVaca();
+            
         }
     }
 }

@@ -1,86 +1,13 @@
 ﻿@page
-@model cuidadobovinominticc3.Pages.lista_visitasModel
-
+@model cuidadobovinominticc3.Pages.buscar_historiaModel
 @{
 }
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>LISTADO DE VISITAS</title>
+	<title>LISTADO DE VETERINARIOS</title>
 </head>
-<body>
-
-	<section id="container">
-        <h1><img src="https://cdn.icon-icons.com/icons2/2298/PNG/512/diagnosis_coronavirus_covid_symstoms_information_checklist_icon_141627.png"width="60" /> Listado de Visitas</h1>
-        <a href="visitas" class="btn_new"><img src="https://cdn.icon-icons.com/icons2/2298/PNG/512/diagnosis_coronavirus_covid_symstoms_information_checklist_icon_141627.png"width="30" /> Crear Visita</a>
-        <form action="buscar_visita" method="get" class="form_search">
-          <input type="text" name="busqueda" id="busqueda" placeholder="Buscar">
-          <button type="submit" class="btn_search"><i class="fa-solid fa-magnifying-glass"></i></button>
-        </form>
-      <div class="containerTable">
-        <table>
-          <tr>
-            <th>Id</th>
-            <th>Cod. Historia</th>
-            <th>Fecha</th>
-            <th>Codigo Vaca</th>
-            <th>Id Veterinario</th>
-            @*<th>Temperatura</th>
-            <th>Peso</th>
-            <th>Respiratoria</th>
-            <th>Cardiaca</th>
-            <th>Estado</th>
-            <th>Diagnostico</th>
-            <th>Recomendaciones</th>
-            <th>Medicamentos</th>*@
-            <th>Acción</th>
-          </tr>
-          @foreach (var historia in Model.Historia)
-          {
-            <tr>
-              <td>@historia.id</td>
-              <td>@historia.Id_Historia</td>
-              <td>@historia.Fecha_Visita</td>
-              <td>@historia.Id_Vaca</td>
-              <td>@historia.Id_Veterinario</td>
-               @*<td>@historia.Temperatura</td>
-              <td>@historia.Peso</td>
-              <td>@historia.Frecuencia_Respiratoria</td>
-              <td>@historia.Frecuencia_Cardiaca</td>
-              <td>@historia.Estado_Animo</td>
-             <td>@historia.Diagnostico</td>
-              <td>@historia.Recomendaciones</td>
-              <td>@historia.Medicamentos</td>*@
-              <td>
-                      <a class="link_edit" asp-page="editar_historia" asp-route-idhistoria="@historia.id"><img src="https://cdn.icon-icons.com/icons2/412/PNG/128/DocumentEdit_40924.png"width="30" /> Editar</a>
-                      
-                      |
-                      <a class="link_delete" href="eliminar_confirmar_historia"><img src="https://cdn.icon-icons.com/icons2/1150/PNG/512/1486504830-delete-dustbin-empty-recycle-recycling-remove-trash_81361.png"width="30" /> Eliminar</a>
-
-                      |
-                      <a class="link_detalle" asp-page="ver_historia" asp-route-idhistoria="@historia.id"><img src="https://cdn.icon-icons.com/icons2/2575/PNG/512/vision_view_eye_icon_153887.png"width="30"/> Ver</a>
-                       
-                      
-                      
-                      
-                
-              </td>
-              
-            </tr>
-          }
-          
-        </table>
-        
-
-
-
-
-
-	</section>
-</body>
 <style>
 *{
 	margin: 0;
@@ -506,6 +433,3 @@ table td{
 }
 </style>
 </html>
-
-
-

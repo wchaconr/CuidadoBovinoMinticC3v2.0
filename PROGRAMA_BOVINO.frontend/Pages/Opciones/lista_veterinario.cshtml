@@ -22,7 +22,6 @@
       <div class="containerTable">
         <table>
           <tr>
-            <th>ID</th>
             <th>NIT</th>
             <th>Nombre</th>
             <th>Apellido</th>
@@ -36,7 +35,6 @@
           @foreach (var veterinario in Model.Veterinario)
           {
             <tr>
-              <td>@veterinario.Id_Veterinario</td>
               <td>@veterinario.Identificacion</td>
               <td>@veterinario.Nombre</td>
               <td>@veterinario.Apellido</td>
@@ -46,7 +44,7 @@
               <td>@veterinario.E_mail</td>
               <td>@veterinario.Tarjeta_Profesional</td>
               <td>
-                      <a class="link_edit" href="editar_veterinario"><img src="https://cdn.icon-icons.com/icons2/412/PNG/128/DocumentEdit_40924.png"width="20" /> Editar</a>
+                      <a class="link_edit" asp-page="editar_veterinario" asp-route-idVeterinario="@veterinario.Id"><img src="https://cdn.icon-icons.com/icons2/412/PNG/128/DocumentEdit_40924.png"width="20" /> Editar</a>
                       
                       |
                       <a class="link_delete" href="eliminar_veterinario"><img src="https://cdn.icon-icons.com/icons2/1150/PNG/512/1486504830-delete-dustbin-empty-recycle-recycling-remove-trash_81361.png"width="20" /> Eliminar</a>

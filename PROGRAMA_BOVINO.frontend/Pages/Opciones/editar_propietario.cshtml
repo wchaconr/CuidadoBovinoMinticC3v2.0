@@ -2,3 +2,45 @@
 @model cuidadobovinominticc3.Pages.editar_propietarioModel
 @{
 }
+
+<br>
+<br>
+
+<section id="container">
+    <div class="form_register">
+        <h1><img src="https://cdn.icon-icons.com/icons2/944/PNG/512/medical-29_icon-icons.com_73943.png"width="50" /> Editar Clientes</h1>
+        <form method="post">
+            <input type="hidden" asp-for="Propietario.Id"/>
+
+                <label asp-for="Propietario.Identificacion">Identificación</label>
+                <input asp-for="Propietario.Identificacion" >
+                <span asp-validation-for="Propietario.Identificacion"></span>
+                <label asp-for="Propietario.Nombre">Nombres del Propietario</label>
+                <input asp-for="Propietario.Nombre" >
+                <span asp-validation-for="Propietario.Nombre"></span>
+                <label asp-for="Propietario.Apellido">Apellidos del Propietario</label>
+                <input asp-for="Propietario.Apellido" >
+                <span asp-validation-for="Propietario.Apellido"></span>
+                <label asp-for="Propietario.Direccion">Dirección del Propietario</label>
+                <input asp-for="Propietario.Direccion" >
+                <span asp-validation-for="Propietario.Direccion"></span>
+                <label asp-for="Propietario.Telefono">Telefono</label>
+                <input asp-for="Propietario.Telefono" >
+                <span asp-validation-for="Propietario.Telefono"></span>
+                <label asp-for="Propietario.E_mail">E_mail del Propietario</label>
+                <input asp-for="Propietario.E_mail" >
+                <span asp-validation-for="Propietario.E_mail"></span>
+                <label asp-for="Propietario.Genero">Genero del Propietario</label>
+                <input asp-for="Propietario.Genero" >
+                <span asp-validation-for="Propietario.Genero"></span>
+                <label asp-for="Propietario.Nombre_Hacienda">Nombre de La Hacienda</label>
+                <input asp-for="Propietario.Nombre_Hacienda" >
+                <span asp-validation-for="Propietario.Nombre_Hacienda"></span>
+                
+				<button type="submit" class="btn_save"><i class="fa-solid fa-floppy-disk"></i> Editar Propietario</button>
+
+        </form>
+    </div>
+
+
+</section>
