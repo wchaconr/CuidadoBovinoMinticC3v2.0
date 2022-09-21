@@ -19,9 +19,11 @@
         <br>
         <h2>¿Está seguro de eliminar esta Historia Clinica?</h2>
         <br>
-        <p>Codigo Historia <span> @Model.Historia.Id_Historia</span></p>
+        <p>Codigo Historia: </p>
+          <p><span> @Model.Historia.Id_Historia</span></p>
         <br>
-        <p>Fecha de la Historia <span>@Model.Historia.Fecha_Visita</span></p>
+        <p>Fecha de la Historia: </p>
+          <p><span>@Model.Historia.Fecha_Visita</span></p>
         <form method="post" action="">
             <input type="hidden" asp-for="Historia.id"/>
             <input type="hidden" asp-for="Historia.id"/>

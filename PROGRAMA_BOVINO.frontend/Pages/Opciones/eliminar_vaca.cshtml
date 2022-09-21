@@ -13,15 +13,17 @@
 </head>
 <body>
 <section id="container">
-    <div class="data_delete">
+    <div class="data_delete ">
         <i class="fa-solid fa-user-xmark fa-7x" style="color: #e66262;"></i>
         <br>
         <br>
         <h2>¿Está seguro de eliminar este Bovino?</h2>
         <br>
-        <p>Nombre del Bovino <span> @Model.Vaca.Nombre</span></p>
+        <p>Nombre del Bovino: </p>
+          <p><span> @Model.Vaca.Nombre</span></p>
         <br>
-        <p>Codigo Bovino <span>@Model.Vaca.Cod_Vaca</span></p>
+        <p>Codigo Bovino: </p>
+          <p><span>@Model.Vaca.Cod_Vaca</span></p>
         <form method="post" action="">
             <input type="hidden" asp-for="Vaca.id"/>
 
@@ -30,6 +32,7 @@
             <button type="submit" class="btn_ok"><i class="fa-solid fa-trash-can"></i> Eliminar</button>
         </form>
     </div>
+  </div>
 
 
 </section>
@@ -43,6 +46,7 @@
 body{
 	background: #ededed;
 }
+
 h1, h2, h3, h4, h5, h6 {
     font-family: 'arial';
     font-weight: bold;
