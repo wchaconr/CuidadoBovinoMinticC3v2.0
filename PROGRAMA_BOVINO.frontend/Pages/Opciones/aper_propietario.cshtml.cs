@@ -25,7 +25,7 @@ namespace cuidadobovinominticc3.Pages
         {
             repopropietario.AddPropietario(Propietario);
             
-            return RedirectToPage("inicio");
+            return RedirectToPage("lista_propietario");
         }
 
         public void OnGet()

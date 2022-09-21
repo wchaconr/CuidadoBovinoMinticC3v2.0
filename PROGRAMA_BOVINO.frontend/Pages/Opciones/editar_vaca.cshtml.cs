@@ -30,7 +30,7 @@ namespace cuidadobovinominticc3.Pages
 
                         if(Vaca == null)
                         {
-                            return RedirectToPage("aper_veterinario");
+                            return RedirectToPage("lista_vacas");
                         }
                         else
                         {

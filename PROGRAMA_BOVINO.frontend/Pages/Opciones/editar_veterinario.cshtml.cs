@@ -27,7 +27,7 @@ namespace cuidadobovinominticc3.Pages
 
                         if(Veterinario == null)
                         {
-                            return RedirectToPage("aper_veterinario");
+                            return RedirectToPage("lista_veterinario");
                         }
                         else
                         {

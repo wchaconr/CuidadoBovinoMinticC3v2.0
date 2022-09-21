@@ -27,7 +27,7 @@ namespace cuidadobovinominticc3.Pages
 
                         if(Propietario == null)
                         {
-                            return RedirectToPage("aper_propietario");
+                            return RedirectToPage("lista_propietario");
                         }
                         else
                         {

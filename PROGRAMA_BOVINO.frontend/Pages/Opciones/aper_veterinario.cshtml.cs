@@ -25,7 +25,7 @@ namespace cuidadobovinominticc3.Pages
         {
             repoveterinario.AddVeterinario(Veterinario);
             
-            return Page();
+            return RedirectToPage("lista_veterinario");
         }
 
         public void OnGet()

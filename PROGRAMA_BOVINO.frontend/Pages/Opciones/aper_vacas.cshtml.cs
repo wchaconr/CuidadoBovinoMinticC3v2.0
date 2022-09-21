@@ -28,7 +28,7 @@ namespace cuidadobovinominticc3.Pages
         {
             repovacas.AddVaca(Vaca);
             
-            return Page();
+            return RedirectToPage("lista_vacas");
         }
         
 
