@@ -70,10 +70,12 @@
 						<h4>Información Personal</h4>
 						<div>
 							<label>Nombre: </label> 
+							<label class="_label">			Carlos Alberto Perez Robledo </label> 
 							
 						</div>
 						<div>
 							<label>Correo: </label> 
+							<label class="_label">			carlosperez@elpalmar.com </label> 
 						</div>
 						<br>
 
@@ -81,9 +83,12 @@
 						<br>
 						<div>
 							<label>Rol: </label> 
+							<label class="_label">			Administrador </label> 
+							
 						</div>
 						<div>
 							<label>Usuario: </label> 
+							<label class="_label">			Admin </label> 
 						</div>
 						<br>
 
@@ -126,22 +131,23 @@
 						<input type="hidden" name="action" value="updateDataEmpresa">
 
 						<div>
-							<label>Nit:</label><input type="text" name="txtNit" id="txtNit" placeholder="Nit de la Empresa" value="" required>
+							<label>Nit:</label><input type="text" name="txtNit" id="txtNit" placeholder="Nit de la Empresa" value="800.100.200" required>
+						</div>
+						
+						<div>
+							<label>Nombre:</label><input type="text" name="txtNombre" id="txtNombre" placeholder="Nombre de la Empresa" value="Veterinaria El Palmar S.A.S." required>
 						</div>
 						<div>
-							<label>Nombre:</label><input type="text" name="txtNombre" id="txtNombre" placeholder="Nombre de la Empresa" value="" required>
+							<label>Razón Social:</label><input type="text" name="txtRSocial" id="txtRSocial" placeholder="Razón Social" value="Veterinaria El Palmar S.A.S." required>
 						</div>
 						<div>
-							<label>Razón Social:</label><input type="text" name="txtRSocial" id="txtRSocial" placeholder="Razón Social" value="" required>
+							<label>Teléfono:</label><input type="text" name="txtTelEmpresa" id="txtTelEmpresa" placeholder="Número de Teléfono" value="321 6589562" required>
 						</div>
 						<div>
-							<label>Teléfono:</label><input type="text" name="txtTelEmpresa" id="txtTelEmpresa" placeholder="Número de Teléfono" value="" required>
+							<label>Correo Electrónico:</label><input type="email" name="txtEmailEmpresa" id="txtEmailEmpresa" placeholder="Correo Electrónico" value="veterinariaelpalmar@elpalmar.com" required>
 						</div>
 						<div>
-							<label>Correo Electrónico:</label><input type="email" name="txtEmailEmpresa" id="txtEmailEmpresa" placeholder="Correo Electrónico" value="" required>
-						</div>
-						<div>
-							<label>Dirección:</label><input type="text" name="txtDirEmpresa" id="txtDirEmpresa" placeholder="Dirección de la Empresa" value="" required>
+							<label>Dirección:</label><input type="text" name="txtDirEmpresa" id="txtDirEmpresa" placeholder="Dirección de la Empresa" value="Cll 85 # 15 27" required>
 						</div>
 						<div class="alertFormEmpresa" style="display: none;"></div>
 						<div>
@@ -352,7 +358,14 @@ label{
 	font-size: 12pt;
 	font-family: 'GothamBook';
 	margin: 15px auto 5px auto;
+	font-weight: bold;
 
+}
+._label{
+	display: block;
+	font-size: 12pt;
+	font-family: 'GothamBook';
+	margin: 15px auto 5px auto;
 }
 input,select{
 	display: block;
