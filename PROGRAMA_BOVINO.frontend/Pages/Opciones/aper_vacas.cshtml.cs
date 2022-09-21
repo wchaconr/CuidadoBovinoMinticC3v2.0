@@ -30,6 +30,7 @@ namespace cuidadobovinominticc3.Pages
             
             return Page();
         }
+        
 
         public void OnGet()
         {

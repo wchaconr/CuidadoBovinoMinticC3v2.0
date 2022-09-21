@@ -18,9 +18,12 @@
         <br>
         <br>
         <h2>¿Está seguro de eliminar este Bovino?</h2>
-        <p>Nombre del Bovino <span asp-validation-for="Vaca.Nombre"></span></p>
-        <p>Codigo Bovino <span asp-validation-for="Vaca.Cod_Vaca"></span></p>
+        <br>
+        <p>Nombre del Bovino <span> @Model.Vaca.Nombre</span></p>
+        <br>
+        <p>Codigo Bovino <span>@Model.Vaca.Cod_Vaca</span></p>
         <form method="post" action="">
+            <input type="hidden" asp-for="Vaca.id"/>
 
             <input type="hidden" asp-for="Vaca.id"/>
             <a href="lista_vacas" class="btn_cancel"> Cancelar</a>

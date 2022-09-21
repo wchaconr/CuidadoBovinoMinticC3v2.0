@@ -19,7 +19,7 @@ namespace cuidadobovinominticc3.Pages
              this.repovacas=new Rep_Vacas(new PROGRAMA_BOVINO.persistencia.AppContext());
         }
         [BindProperty]
-        public Aper_vaca Vaca {get;set;}
+        public Aper_vaca Vaca {set;get;}
 
         public IActionResult OnGet(int idvaca)
                     {
@@ -35,10 +35,11 @@ namespace cuidadobovinominticc3.Pages
                         }
 
                     }
+
         public IActionResult OnPost()
         {
-            Vaca=repovacas.DeleteVaca(Vaca);
-            return RedirectToPage("lista_vacas");
+         repovacas.DeleteVaca(Vaca.id);
+         return RedirectToPage("lista_vacas");
         }
     }
 }
