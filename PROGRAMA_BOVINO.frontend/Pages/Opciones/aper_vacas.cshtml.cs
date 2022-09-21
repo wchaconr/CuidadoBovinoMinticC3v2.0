@@ -25,11 +25,16 @@ namespace cuidadobovinominticc3.Pages
         public Aper_vaca Vaca {get;set;}
 
         public IActionResult OnPost()
+         
         {
             repovacas.AddVaca(Vaca);
+
+            
             
             return RedirectToPage("lista_vacas");
+            
         }
+        
         
 
         public void OnGet()
